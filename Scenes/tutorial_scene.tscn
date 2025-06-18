@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://cvxiw7rpa6105"]
+
+[ext_resource type="Texture2D" uid="uid://do3gjb5cmly48" path="res://Sprites/tutorialScene/Fon.png" id="1_qc1uj"]
+[ext_resource type="Texture2D" uid="uid://bxk0akxviri37" path="res://Sprites/tutorialScene/Zvezdy.png" id="2_7f8g8"]
+[ext_resource type="Texture2D" uid="uid://cxoaifou4r34c" path="res://Sprites/tutorialScene/Ornament.png" id="3_2moqc"]
+[ext_resource type="Script" uid="uid://dbi2735o8vlvl" path="res://ornament.gd" id="4_kcl8b"]
+[ext_resource type="Texture2D" uid="uid://0l56pjctxd6p" path="res://Sprites/tutorialScene/Luna.png" id="5_haxi5"]
+[ext_resource type="Texture2D" uid="uid://dyn1lllu8itqo" path="res://Sprites/tutorialScene/Gora.png" id="6_m7jwp"]
+[ext_resource type="Texture2D" uid="uid://dle4gpjtdufqt" path="res://Sprites/tutorialScene/Simvol_1.png" id="7_cmr4g"]
+[ext_resource type="Texture2D" uid="uid://1t75ajye6b3c" path="res://Sprites/tutorialScene/Simvol_2.png" id="8_c2gyy"]
+
+[node name="tutorialScene" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Fon" type="Sprite2D" parent="Node2D"]
+position = Vector2(507, 323)
+texture = ExtResource("1_qc1uj")
+
+[node name="Zvezdy" type="Sprite2D" parent="Node2D"]
+position = Vector2(521, 30)
+texture = ExtResource("2_7f8g8")
+
+[node name="Ornament" type="Sprite2D" parent="Node2D"]
+position = Vector2(517, 244)
+texture = ExtResource("3_2moqc")
+script = ExtResource("4_kcl8b")
+
+[node name="Luna" type="Sprite2D" parent="Node2D"]
+position = Vector2(666, 197)
+texture = ExtResource("5_haxi5")
+
+[node name="Gora" type="Sprite2D" parent="Node2D"]
+position = Vector2(529, 329)
+texture = ExtResource("6_m7jwp")
+
+[node name="Simvol1" type="Sprite2D" parent="Node2D"]
+position = Vector2(873, 430)
+scale = Vector2(0.466929, 0.466929)
+texture = ExtResource("7_cmr4g")
+
+[node name="Simvol2" type="Sprite2D" parent="Node2D"]
+position = Vector2(528, 554)
+texture = ExtResource("8_c2gyy")
