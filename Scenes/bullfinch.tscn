@@ -1,0 +1,1170 @@
+[gd_scene load_steps=288 format=3 uid="uid://c4xiwcc1w2o48"]
+
+[ext_resource type="Texture2D" uid="uid://cqahwgteqgxar" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0001.png" id="1_iyuiv"]
+[ext_resource type="Texture2D" uid="uid://c47f1lfn4wkon" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0001.png" id="1_mxumo"]
+[ext_resource type="Texture2D" uid="uid://c050krt14plry" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0002.png" id="2_gk3ik"]
+[ext_resource type="Texture2D" uid="uid://cm40rvbobook2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0002.png" id="2_gx2j8"]
+[ext_resource type="Texture2D" uid="uid://cjo2na1vwwsfm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0003.png" id="3_q0hbd"]
+[ext_resource type="Texture2D" uid="uid://c6wycyc7hvr0b" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0003.png" id="3_qi8pp"]
+[ext_resource type="Texture2D" uid="uid://dspfy08165272" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0004.png" id="4_kd68v"]
+[ext_resource type="Texture2D" uid="uid://c60iwk3wloqm4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0004.png" id="4_wr8d8"]
+[ext_resource type="Texture2D" uid="uid://chkjj7x2j7py6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0005.png" id="5_cmahp"]
+[ext_resource type="Texture2D" uid="uid://cl2snpplnju4x" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0005.png" id="5_y4wfl"]
+[ext_resource type="Texture2D" uid="uid://dl26ex0y8bhh7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0006.png" id="6_red5y"]
+[ext_resource type="Texture2D" uid="uid://8dp5j3sxba03" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0006.png" id="6_vi2k8"]
+[ext_resource type="Texture2D" uid="uid://bcpucbvl15ilc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0007.png" id="7_04w88"]
+[ext_resource type="Texture2D" uid="uid://cuxhtq8bs3a57" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0007.png" id="7_pldol"]
+[ext_resource type="Texture2D" uid="uid://br7jya68e23pq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0008.png" id="8_gs505"]
+[ext_resource type="Texture2D" uid="uid://c0t04bto7kycv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0008.png" id="8_rn0s7"]
+[ext_resource type="Texture2D" uid="uid://dluyfudqgn1or" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0009.png" id="9_ns32p"]
+[ext_resource type="Texture2D" uid="uid://dq6jat353gsyb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0009.png" id="9_vpv8u"]
+[ext_resource type="Texture2D" uid="uid://jj8rmls56b5f" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0010.png" id="10_bm7ev"]
+[ext_resource type="Texture2D" uid="uid://dev2axmnym3o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0010.png" id="10_g4gct"]
+[ext_resource type="Texture2D" uid="uid://bc5bxoec75qcf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0011.png" id="11_0xj1p"]
+[ext_resource type="Texture2D" uid="uid://dmukk281lk5v5" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0011.png" id="11_bx2co"]
+[ext_resource type="Texture2D" uid="uid://dfirigusdgans" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0012.png" id="12_bv8ou"]
+[ext_resource type="Texture2D" uid="uid://bohvirhwqirxf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0012.png" id="12_ubola"]
+[ext_resource type="Texture2D" uid="uid://ce5sfoio5auwf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0013.png" id="13_1i4cg"]
+[ext_resource type="Texture2D" uid="uid://e0jd550srev0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0013.png" id="13_b00yb"]
+[ext_resource type="Texture2D" uid="uid://cnqx782cuekp7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0014.png" id="14_x8mxp"]
+[ext_resource type="Texture2D" uid="uid://brocaqsf5uuy7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0014.png" id="14_x12yg"]
+[ext_resource type="Texture2D" uid="uid://vwfsq7mcl77o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0015.png" id="15_sow0m"]
+[ext_resource type="Texture2D" uid="uid://dye2mpmv0kf21" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0015.png" id="15_wsx22"]
+[ext_resource type="Texture2D" uid="uid://jo21oa66ec5a" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0016.png" id="16_6lio7"]
+[ext_resource type="Texture2D" uid="uid://c1neb6s5yo4su" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0016.png" id="16_skwwo"]
+[ext_resource type="Texture2D" uid="uid://60d2lgsxo4xj" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0017.png" id="17_grml1"]
+[ext_resource type="Texture2D" uid="uid://bym31cs4s18c3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0017.png" id="17_scdm7"]
+[ext_resource type="Texture2D" uid="uid://dk6l03uwewts4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0018.png" id="18_lyg4i"]
+[ext_resource type="Texture2D" uid="uid://t2mkb06sdt7m" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0018.png" id="18_qvmyl"]
+[ext_resource type="Texture2D" uid="uid://bjsi1fgm68wv4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0019.png" id="19_ryibq"]
+[ext_resource type="Texture2D" uid="uid://b3qg8dn7i6l5a" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0019.png" id="19_tyx1y"]
+[ext_resource type="Texture2D" uid="uid://dfaadp7a8a31v" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0020.png" id="20_ilykf"]
+[ext_resource type="Texture2D" uid="uid://dwwg62keo0vum" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0020.png" id="20_u3xep"]
+[ext_resource type="Texture2D" uid="uid://i8v4gyn6oln0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0021.png" id="21_5upsd"]
+[ext_resource type="Texture2D" uid="uid://dgnlgsooimuxy" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0021.png" id="21_y4jr8"]
+[ext_resource type="Texture2D" uid="uid://cnrv1xx3kly12" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0022.png" id="22_4hyol"]
+[ext_resource type="Texture2D" uid="uid://c41xtkm055dc3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0022.png" id="22_7yfgh"]
+[ext_resource type="Texture2D" uid="uid://cybxl7v26cwid" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0023.png" id="23_2gcvh"]
+[ext_resource type="Texture2D" uid="uid://7u0dv0px4r4l" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0023.png" id="23_hga5j"]
+[ext_resource type="Texture2D" uid="uid://bpfvrm4vlp64n" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0024.png" id="24_didwt"]
+[ext_resource type="Texture2D" uid="uid://cll0sv1urka50" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0024.png" id="24_t4mas"]
+[ext_resource type="Texture2D" uid="uid://cm3f3m8l00i5a" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0025.png" id="25_72lao"]
+[ext_resource type="Texture2D" uid="uid://cu8l1wfg0thux" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0025.png" id="25_prbs4"]
+[ext_resource type="Texture2D" uid="uid://bhv4jvdh5ga0v" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0026.png" id="26_3e1kp"]
+[ext_resource type="Texture2D" uid="uid://cyjywmtogafcc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0026.png" id="26_yft0u"]
+[ext_resource type="Texture2D" uid="uid://cq5m0e1xe7qxk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0027.png" id="27_8v1fv"]
+[ext_resource type="Texture2D" uid="uid://ymjv8r4r1yc2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0027.png" id="27_ni2w8"]
+[ext_resource type="Texture2D" uid="uid://b5ob3dfwt7ef1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0028.png" id="28_3pctp"]
+[ext_resource type="Texture2D" uid="uid://cs6aya2txi2g5" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0028.png" id="28_4nsn5"]
+[ext_resource type="Texture2D" uid="uid://231dmfrpd3j0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0029.png" id="29_5uist"]
+[ext_resource type="Texture2D" uid="uid://c05s4rl02bvga" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0029.png" id="29_ekfrh"]
+[ext_resource type="Texture2D" uid="uid://cn1k1uavopook" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0030.png" id="30_fqyhe"]
+[ext_resource type="Texture2D" uid="uid://dkl2ypyc51tfp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0030.png" id="30_hdv3t"]
+[ext_resource type="Texture2D" uid="uid://e4rhqkjgehij" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0031.png" id="31_2xrwu"]
+[ext_resource type="Texture2D" uid="uid://c40irdy7prcpb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0031.png" id="31_fk5uj"]
+[ext_resource type="Texture2D" uid="uid://dmddkw3v83852" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0032.png" id="32_a17oq"]
+[ext_resource type="Texture2D" uid="uid://bgpexh0y2ebxv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0032.png" id="32_dgum2"]
+[ext_resource type="Texture2D" uid="uid://c7jvd2raq2peg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0033.png" id="33_due4n"]
+[ext_resource type="Texture2D" uid="uid://dxvblqdsmyeeq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0033.png" id="33_x364s"]
+[ext_resource type="Texture2D" uid="uid://chh1w0atum48g" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0034.png" id="34_53p5a"]
+[ext_resource type="Texture2D" uid="uid://vhe4h02wit7k" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0034.png" id="34_161jl"]
+[ext_resource type="Texture2D" uid="uid://c06jalfy8k6cv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0035.png" id="35_h67wm"]
+[ext_resource type="Texture2D" uid="uid://f6hmgtxawy4l" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0035.png" id="35_krymb"]
+[ext_resource type="Texture2D" uid="uid://bqwwref3cb07m" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0036.png" id="36_4f2pq"]
+[ext_resource type="Texture2D" uid="uid://dwdlik4xb2le0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0036.png" id="36_of80r"]
+[ext_resource type="Texture2D" uid="uid://drs7lmfiop66p" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0037.png" id="37_ugvq7"]
+[ext_resource type="Texture2D" uid="uid://wd6j0qhcc1sm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0037.png" id="37_uhat3"]
+[ext_resource type="Texture2D" uid="uid://icjc8ih0m6i3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0038.png" id="38_0mlt7"]
+[ext_resource type="Texture2D" uid="uid://c5viwnw6bal3l" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0038.png" id="38_fs124"]
+[ext_resource type="Texture2D" uid="uid://pnlksfch0wqa" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0039.png" id="39_0y41p"]
+[ext_resource type="Texture2D" uid="uid://bpmadji8vlxml" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0039.png" id="39_ekhvk"]
+[ext_resource type="Texture2D" uid="uid://bmkvtll83teph" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0040.png" id="40_6028l"]
+[ext_resource type="Texture2D" uid="uid://51xh1kk16llw" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0040.png" id="40_a7a6a"]
+[ext_resource type="Texture2D" uid="uid://bpd5bjq6ew6x5" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0041.png" id="41_0jknu"]
+[ext_resource type="Texture2D" uid="uid://c6rynnnrhndge" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0041.png" id="41_tu32w"]
+[ext_resource type="Texture2D" uid="uid://dvg3ib67rwfba" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0042.png" id="42_7435d"]
+[ext_resource type="Texture2D" uid="uid://cgf78ud8dwbx4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0042.png" id="42_m28py"]
+[ext_resource type="Texture2D" uid="uid://b50w3si6uli8t" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0043.png" id="43_4wq0n"]
+[ext_resource type="Texture2D" uid="uid://c7lqcf10fiiry" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0043.png" id="43_aoh2s"]
+[ext_resource type="Texture2D" uid="uid://78swiurmt357" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0044.png" id="44_kaiiy"]
+[ext_resource type="Texture2D" uid="uid://b3t7r2ieooivy" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0044.png" id="44_p3sfc"]
+[ext_resource type="Texture2D" uid="uid://cxgjhb14pigj7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0045.png" id="45_kdehv"]
+[ext_resource type="Texture2D" uid="uid://ccnj1381we0rd" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0045.png" id="45_pmb36"]
+[ext_resource type="Texture2D" uid="uid://2sfmlgai1lxl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0046.png" id="46_hembs"]
+[ext_resource type="Texture2D" uid="uid://ddvteshfhn771" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0046.png" id="46_jkkkk"]
+[ext_resource type="Texture2D" uid="uid://dyduovx3axc6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0047.png" id="47_8jsle"]
+[ext_resource type="Texture2D" uid="uid://c1f5ehs1mrc5u" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0047.png" id="47_oglbn"]
+[ext_resource type="Texture2D" uid="uid://bffaureyjlieh" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0048.png" id="48_kvmt4"]
+[ext_resource type="Texture2D" uid="uid://b7h047cg8h6b0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0048.png" id="48_ogts4"]
+[ext_resource type="Texture2D" uid="uid://dskuxd4cbw3tl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0049.png" id="49_1kv4r"]
+[ext_resource type="Texture2D" uid="uid://c1vbwy2ljwp5a" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0049.png" id="49_nlrwq"]
+[ext_resource type="Texture2D" uid="uid://btuxvq4levaqh" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0050.png" id="50_0psw3"]
+[ext_resource type="Texture2D" uid="uid://cp3xo6jhrb782" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0050.png" id="50_ps17n"]
+[ext_resource type="Texture2D" uid="uid://7gngeflpsw3k" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0051.png" id="51_gaomj"]
+[ext_resource type="Texture2D" uid="uid://bqgj5c2jbq0rj" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0051.png" id="51_rj6qk"]
+[ext_resource type="Texture2D" uid="uid://d4hyddpp1j2c8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0052.png" id="52_cu2vh"]
+[ext_resource type="Texture2D" uid="uid://bckjuymdhy0hu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0052.png" id="52_wgtdl"]
+[ext_resource type="Texture2D" uid="uid://cqoyqrumeofal" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0053.png" id="53_m7gvu"]
+[ext_resource type="Texture2D" uid="uid://3w2y61jsd73f" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0053.png" id="53_n6prx"]
+[ext_resource type="Texture2D" uid="uid://d0hw6mkkl3i4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0054.png" id="54_fdb5y"]
+[ext_resource type="Texture2D" uid="uid://bwdabxwxwcpw8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0054.png" id="54_hx65a"]
+[ext_resource type="Texture2D" uid="uid://nlg0nnp8ipos" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0055.png" id="55_n72e2"]
+[ext_resource type="Texture2D" uid="uid://bdehxd0yqer7g" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0055.png" id="55_qoanw"]
+[ext_resource type="Texture2D" uid="uid://cpim62fr84pq8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0056.png" id="56_e4j6c"]
+[ext_resource type="Texture2D" uid="uid://d4ihere5qicle" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0056.png" id="56_ivfgq"]
+[ext_resource type="Texture2D" uid="uid://c0suxlqba755b" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0057.png" id="57_3d8a6"]
+[ext_resource type="Texture2D" uid="uid://boffsyqg5kkkp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0057.png" id="57_y55sb"]
+[ext_resource type="Texture2D" uid="uid://thgrvpqop4ii" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0058.png" id="58_l3qqb"]
+[ext_resource type="Texture2D" uid="uid://ckkyfj1uvylu4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0058.png" id="58_va1ya"]
+[ext_resource type="Texture2D" uid="uid://btq8n4ybd1vos" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0059.png" id="59_ro6rk"]
+[ext_resource type="Texture2D" uid="uid://cyrpcirnrnklt" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0059.png" id="59_t1dcf"]
+[ext_resource type="Texture2D" uid="uid://d265bvksnxl5f" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0060.png" id="60_lixu1"]
+[ext_resource type="Texture2D" uid="uid://ctyxmdmby2vhe" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0060.png" id="60_rk7n7"]
+[ext_resource type="Texture2D" uid="uid://crfy0xf7wkxyu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0061.png" id="61_7ktol"]
+[ext_resource type="Texture2D" uid="uid://brirvmvkr1ak8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0062.png" id="62_3l31q"]
+[ext_resource type="Texture2D" uid="uid://cs2egmfm36ulu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0063.png" id="63_lr8cb"]
+[ext_resource type="Texture2D" uid="uid://qi2p0c4py1t7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0064.png" id="64_f5bj5"]
+[ext_resource type="Texture2D" uid="uid://ba5ot7tq5ptcj" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0065.png" id="65_pyf3v"]
+[ext_resource type="Texture2D" uid="uid://dpyljqgk70u3o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0066.png" id="66_mi7jg"]
+[ext_resource type="Texture2D" uid="uid://370wpvsk01d2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0067.png" id="67_r3h67"]
+[ext_resource type="Texture2D" uid="uid://cxrgmtpl4638o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0068.png" id="68_202xi"]
+[ext_resource type="Texture2D" uid="uid://3dng0fqt4ck7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0069.png" id="69_wy0f7"]
+[ext_resource type="Texture2D" uid="uid://t6dms00tdkr8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0070.png" id="70_8xlan"]
+[ext_resource type="Texture2D" uid="uid://bjsslqq04gfat" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0071.png" id="71_0tten"]
+[ext_resource type="Texture2D" uid="uid://c88pp1i6tait1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0072.png" id="72_t236s"]
+[ext_resource type="Texture2D" uid="uid://bg2qfgwfbvucc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0073.png" id="73_8hl31"]
+[ext_resource type="Texture2D" uid="uid://bh6e3dlrqivhv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0074.png" id="74_1mo1d"]
+[ext_resource type="Texture2D" uid="uid://d4jqmuy8cicy3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0075.png" id="75_j28t0"]
+[ext_resource type="Texture2D" uid="uid://oh7ky76ckcdt" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0076.png" id="76_wujq5"]
+[ext_resource type="Texture2D" uid="uid://df37tjhqbojki" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0077.png" id="77_xq08h"]
+[ext_resource type="Texture2D" uid="uid://dg7e663kvs6kl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0078.png" id="78_a7ghq"]
+[ext_resource type="Texture2D" uid="uid://ciupj5d7rtmrg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0079.png" id="79_4pt72"]
+[ext_resource type="Texture2D" uid="uid://f74t74mvg2xd" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0080.png" id="80_v825v"]
+[ext_resource type="Texture2D" uid="uid://bwox7equcfbyn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0081.png" id="81_84nj8"]
+[ext_resource type="Texture2D" uid="uid://bkd6l1e56o2hi" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0082.png" id="82_u64hc"]
+[ext_resource type="Texture2D" uid="uid://7yfttrnagd6t" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0083.png" id="83_0ar1t"]
+[ext_resource type="Texture2D" uid="uid://dwddu86xp74ys" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0084.png" id="84_vas0p"]
+[ext_resource type="Texture2D" uid="uid://bl58op0iaf18o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0085.png" id="85_y4451"]
+[ext_resource type="Texture2D" uid="uid://pyym5giyt65s" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0086.png" id="86_3asdf"]
+[ext_resource type="Texture2D" uid="uid://tyiipryqt8rb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0087.png" id="87_mbtih"]
+[ext_resource type="Texture2D" uid="uid://dvsn7ldqwx6wb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0088.png" id="88_2xff5"]
+[ext_resource type="Texture2D" uid="uid://ba0jjoqmu7e13" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0089.png" id="89_78448"]
+[ext_resource type="Texture2D" uid="uid://ov7swy5nfkrd" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0090.png" id="90_s20xg"]
+[ext_resource type="Texture2D" uid="uid://cgwn3dcdnde3c" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0091.png" id="91_5w1mc"]
+[ext_resource type="Texture2D" uid="uid://c2cx77yml276r" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0092.png" id="92_tspqr"]
+[ext_resource type="Texture2D" uid="uid://uj4c2let6703" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0093.png" id="93_ku6bt"]
+[ext_resource type="Texture2D" uid="uid://df45g1yjad8qp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0094.png" id="94_dlq8m"]
+[ext_resource type="Texture2D" uid="uid://bkyupgr7gbf3h" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0095.png" id="95_yh1se"]
+[ext_resource type="Texture2D" uid="uid://cio3dh1t0pbuh" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0096.png" id="96_sqhro"]
+[ext_resource type="Texture2D" uid="uid://r8aww1x2vdgf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0097.png" id="97_ukc7d"]
+[ext_resource type="Texture2D" uid="uid://dfydstbgc7xk5" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0098.png" id="98_xngdc"]
+[ext_resource type="Texture2D" uid="uid://lfwnoa03eps1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0099.png" id="99_ntsix"]
+[ext_resource type="Texture2D" uid="uid://20h3o7ytbmtu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0100.png" id="100_6bbq6"]
+[ext_resource type="Texture2D" uid="uid://disewe4eaqhah" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0101.png" id="101_pjqul"]
+[ext_resource type="Texture2D" uid="uid://baxukdxon5c6b" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0102.png" id="102_4uwmx"]
+[ext_resource type="Texture2D" uid="uid://c0at4xb8c2j8v" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0103.png" id="103_d4wtj"]
+[ext_resource type="Texture2D" uid="uid://ch2mlsxgb2bcw" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0104.png" id="104_3y5r2"]
+[ext_resource type="Texture2D" uid="uid://cvdv368eyxngc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0105.png" id="105_wqqpo"]
+[ext_resource type="Texture2D" uid="uid://ch6q4xtb0bcnp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0106.png" id="106_5liss"]
+[ext_resource type="Texture2D" uid="uid://bvhiv37ywfbgu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0107.png" id="107_tjhki"]
+[ext_resource type="Texture2D" uid="uid://bwrosy7302ghr" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0108.png" id="108_r0l6s"]
+[ext_resource type="Texture2D" uid="uid://h0ya1q3pfjai" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0109.png" id="109_5ag5t"]
+[ext_resource type="Texture2D" uid="uid://bggc1id73gajn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0110.png" id="110_8ymh8"]
+[ext_resource type="Texture2D" uid="uid://dgsrqglsjsop2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0111.png" id="111_u78iu"]
+[ext_resource type="Texture2D" uid="uid://cailuqgix4nsi" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0112.png" id="112_ks3od"]
+[ext_resource type="Texture2D" uid="uid://c1p8gbaddee8g" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0113.png" id="113_lg8ra"]
+[ext_resource type="Texture2D" uid="uid://c0u8ffidv7cld" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0114.png" id="114_es2ee"]
+[ext_resource type="Texture2D" uid="uid://b5a255r35q40u" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0115.png" id="115_kaylh"]
+[ext_resource type="Texture2D" uid="uid://ttomfuf68pwn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0116.png" id="116_3qpmj"]
+[ext_resource type="Texture2D" uid="uid://bldy0rhos06dh" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0117.png" id="117_tji1v"]
+[ext_resource type="Texture2D" uid="uid://dbb5osphdbedq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0118.png" id="118_2alwg"]
+[ext_resource type="Texture2D" uid="uid://c1arqoktgt1gm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0119.png" id="119_7myh3"]
+[ext_resource type="Texture2D" uid="uid://co8lfawl6ebdc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0120.png" id="120_5a1ny"]
+[ext_resource type="Texture2D" uid="uid://btoritofm5ick" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0121.png" id="121_4stoi"]
+[ext_resource type="Texture2D" uid="uid://bi0qvl5hsn377" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0122.png" id="122_tomcs"]
+[ext_resource type="Texture2D" uid="uid://budisafs5ppsm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0123.png" id="123_7x58b"]
+[ext_resource type="Texture2D" uid="uid://mek5ptqqr7py" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0124.png" id="124_7n3vq"]
+[ext_resource type="Texture2D" uid="uid://dnrx6hkjcyql5" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0125.png" id="125_25ygj"]
+[ext_resource type="Texture2D" uid="uid://j1e3pudvaqtw" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0126.png" id="126_0a1tm"]
+[ext_resource type="Texture2D" uid="uid://d0l31gkr27qb7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0127.png" id="127_k6qf1"]
+[ext_resource type="Texture2D" uid="uid://87obkj720pcg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0128.png" id="128_2ngj1"]
+[ext_resource type="Texture2D" uid="uid://ot2756c2tjfk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0129.png" id="129_8iky4"]
+[ext_resource type="Texture2D" uid="uid://seehht7t6boa" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0130.png" id="130_3oiw6"]
+[ext_resource type="Texture2D" uid="uid://ckafgqbbdtdxr" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0131.png" id="131_k0o0d"]
+[ext_resource type="Texture2D" uid="uid://dhxifyiyqdfxe" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0132.png" id="132_h77p1"]
+[ext_resource type="Texture2D" uid="uid://dl6ufowfkkunr" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0133.png" id="133_dql3b"]
+[ext_resource type="Texture2D" uid="uid://ccoeks3wj7c64" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0134.png" id="134_6psbr"]
+[ext_resource type="Texture2D" uid="uid://cl35hhb25onjb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0135.png" id="135_ijml3"]
+[ext_resource type="Texture2D" uid="uid://byyh77bhsfcwk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0136.png" id="136_6xtog"]
+[ext_resource type="Texture2D" uid="uid://cavdhwchuq5pv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0137.png" id="137_a7smo"]
+[ext_resource type="Texture2D" uid="uid://cxr8qt2dftnov" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0138.png" id="138_ti6j2"]
+[ext_resource type="Texture2D" uid="uid://cmfdd2pmxa4i" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0139.png" id="139_c617j"]
+[ext_resource type="Texture2D" uid="uid://dgh0alurim128" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0140.png" id="140_n26b5"]
+[ext_resource type="Texture2D" uid="uid://bi03vif0apbba" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0141.png" id="141_yqu8p"]
+[ext_resource type="Texture2D" uid="uid://d236dea865msv" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0142.png" id="142_n8ii7"]
+[ext_resource type="Texture2D" uid="uid://cssmabf27aytc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0143.png" id="143_g71lw"]
+[ext_resource type="Texture2D" uid="uid://uvnbj4jhcslw" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0144.png" id="144_xqah5"]
+[ext_resource type="Texture2D" uid="uid://bb8umaaacwube" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0145.png" id="145_8eh58"]
+[ext_resource type="Texture2D" uid="uid://dcxst1w404wg2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0146.png" id="146_l4unk"]
+[ext_resource type="Texture2D" uid="uid://d32ak2ihppwq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0147.png" id="147_qy6os"]
+[ext_resource type="Texture2D" uid="uid://cv2gba2n0jo8k" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0148.png" id="148_3827y"]
+[ext_resource type="Texture2D" uid="uid://dut6yme2aq374" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0149.png" id="149_b6kui"]
+[ext_resource type="Texture2D" uid="uid://dymjkksvf3pnq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0150.png" id="150_excrc"]
+[ext_resource type="Texture2D" uid="uid://coqjlahluejt8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0151.png" id="151_8vgwq"]
+[ext_resource type="Texture2D" uid="uid://dq52g6ypuxwst" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0152.png" id="152_kdm4x"]
+[ext_resource type="Texture2D" uid="uid://lg2bmk68ny0i" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0153.png" id="153_txx6s"]
+[ext_resource type="Texture2D" uid="uid://blchloqq6akli" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0154.png" id="154_hi6p2"]
+[ext_resource type="Texture2D" uid="uid://b14vba8mbyue4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0155.png" id="155_ciehx"]
+[ext_resource type="Texture2D" uid="uid://7n2sv4xlnxw6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0156.png" id="156_gc0r2"]
+[ext_resource type="Texture2D" uid="uid://b6fs5tit4i0l8" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0157.png" id="157_fcoyk"]
+[ext_resource type="Texture2D" uid="uid://dgscwtrvoj8u7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0158.png" id="158_mkce1"]
+[ext_resource type="Texture2D" uid="uid://r7vlqq5hbr2p" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0159.png" id="159_6788g"]
+[ext_resource type="Texture2D" uid="uid://ebxy3u2ux805" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0160.png" id="160_icvab"]
+[ext_resource type="Texture2D" uid="uid://bh0gjlpbo5gs7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0161.png" id="161_w6xpv"]
+[ext_resource type="Texture2D" uid="uid://dsio5kdsh3uma" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0162.png" id="162_qpn1k"]
+[ext_resource type="Texture2D" uid="uid://ci3j4ljeqa8tk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0163.png" id="163_2o5kh"]
+[ext_resource type="Texture2D" uid="uid://btf6q5odogtnp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0164.png" id="164_le1tr"]
+[ext_resource type="Texture2D" uid="uid://ces57thqkrlxb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0165.png" id="165_aymyx"]
+[ext_resource type="Texture2D" uid="uid://bflhb3ranfmid" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0166.png" id="166_mrc6s"]
+[ext_resource type="Texture2D" uid="uid://sq8vc24q46gr" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0167.png" id="167_ksf5p"]
+[ext_resource type="Texture2D" uid="uid://bxmqr31g4578g" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0168.png" id="168_2n0i0"]
+[ext_resource type="Texture2D" uid="uid://bv0h38ls37pss" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0169.png" id="169_enwc1"]
+[ext_resource type="Texture2D" uid="uid://dx3xa27d4mbnf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0170.png" id="170_rj2lk"]
+[ext_resource type="Texture2D" uid="uid://dp4apvqhr0ib3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0171.png" id="171_xmf3f"]
+[ext_resource type="Texture2D" uid="uid://cr3r1v8b37lu3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0172.png" id="172_x2l1s"]
+[ext_resource type="Texture2D" uid="uid://ckivm51bpxblk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0173.png" id="173_dmdtl"]
+[ext_resource type="Texture2D" uid="uid://c3wltl84eyrng" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0174.png" id="174_2pal7"]
+[ext_resource type="Texture2D" uid="uid://w35uvnls04e4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0175.png" id="175_o7bk4"]
+[ext_resource type="Texture2D" uid="uid://bgpns7jctr5w6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0176.png" id="176_1txj2"]
+[ext_resource type="Texture2D" uid="uid://ckymqq2trawc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0177.png" id="177_fjgmv"]
+[ext_resource type="Texture2D" uid="uid://e5sqrsxg8825" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0178.png" id="178_dwm2m"]
+[ext_resource type="Texture2D" uid="uid://d2o23t2mlnlt2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0179.png" id="179_c0qbm"]
+[ext_resource type="Texture2D" uid="uid://dijy6uh0784mi" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0180.png" id="180_q310a"]
+[ext_resource type="Texture2D" uid="uid://dh668abl1a4tt" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0181.png" id="181_klmj5"]
+[ext_resource type="Texture2D" uid="uid://cfreyfqnxrx6c" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0182.png" id="182_u7oen"]
+[ext_resource type="Texture2D" uid="uid://hail4061vpdy" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0183.png" id="183_p5os5"]
+[ext_resource type="Texture2D" uid="uid://rqgs4r5o7jyj" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0184.png" id="184_8w3ga"]
+[ext_resource type="Texture2D" uid="uid://cfhwbpk7llwvb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0185.png" id="185_0pw5v"]
+[ext_resource type="Texture2D" uid="uid://eddkkibvrfeb" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0186.png" id="186_nveef"]
+[ext_resource type="Texture2D" uid="uid://cfh6vahr2xb4w" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0187.png" id="187_vsat7"]
+[ext_resource type="Texture2D" uid="uid://bnakj378g6qh1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0188.png" id="188_1xh5t"]
+[ext_resource type="Texture2D" uid="uid://kb4p2lf8i5qd" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0189.png" id="189_dq5ro"]
+[ext_resource type="Texture2D" uid="uid://dmbc8i037lkka" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0190.png" id="190_w0lsc"]
+[ext_resource type="Texture2D" uid="uid://dw3r2233pbqbl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0191.png" id="191_cbgmb"]
+[ext_resource type="Texture2D" uid="uid://b614x8nrfmm1d" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0192.png" id="192_kr761"]
+[ext_resource type="Texture2D" uid="uid://vtphqnhtqyb2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0193.png" id="193_p8k2t"]
+[ext_resource type="Texture2D" uid="uid://dgcil5g801go6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0194.png" id="194_xphqm"]
+[ext_resource type="Texture2D" uid="uid://5fx0wllfppdf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0195.png" id="195_qrnux"]
+[ext_resource type="Texture2D" uid="uid://b6p56mw6o1kjs" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0196.png" id="196_temo4"]
+[ext_resource type="Texture2D" uid="uid://dnuua2y3bpmq7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0197.png" id="197_akllr"]
+[ext_resource type="Texture2D" uid="uid://kiuhidvhptdn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0198.png" id="198_2nhti"]
+[ext_resource type="Texture2D" uid="uid://lcpst4pkw3um" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0199.png" id="199_8vbn1"]
+[ext_resource type="Texture2D" uid="uid://da8pf5acnk7jg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0200.png" id="200_b0m5j"]
+[ext_resource type="Texture2D" uid="uid://ciiuqllfi2lyg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0201.png" id="201_6ki8u"]
+[ext_resource type="Texture2D" uid="uid://bqicovyavhg7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0202.png" id="202_1sn2u"]
+[ext_resource type="Texture2D" uid="uid://gix45vi3lugn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0203.png" id="203_fj826"]
+[ext_resource type="Texture2D" uid="uid://hnhx0fdmxoab" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0204.png" id="204_hvedi"]
+[ext_resource type="Texture2D" uid="uid://g810l7p3apjf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0205.png" id="205_v7l2c"]
+[ext_resource type="Texture2D" uid="uid://drbsxsg72e65h" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0206.png" id="206_qiegl"]
+[ext_resource type="Texture2D" uid="uid://be6r2w8dblol6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0207.png" id="207_if301"]
+[ext_resource type="Texture2D" uid="uid://b1dgxs1cfgbhk" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0208.png" id="208_hjlol"]
+[ext_resource type="Texture2D" uid="uid://c436matsjjaun" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0209.png" id="209_51tfj"]
+[ext_resource type="Texture2D" uid="uid://diixm2tcevlo4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0210.png" id="210_1uwbr"]
+[ext_resource type="Texture2D" uid="uid://c7rw4apslm4no" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0211.png" id="211_rb5c5"]
+[ext_resource type="Texture2D" uid="uid://dl5v7u82fx362" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0212.png" id="212_b24mf"]
+[ext_resource type="Texture2D" uid="uid://xbuevas60o7h" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0213.png" id="213_2pttk"]
+[ext_resource type="Texture2D" uid="uid://pdhybeo5hw50" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0214.png" id="214_l8j7r"]
+[ext_resource type="Texture2D" uid="uid://yat3oug7xos1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0215.png" id="215_a6nrb"]
+[ext_resource type="Texture2D" uid="uid://c8vixrrbk161h" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0216.png" id="216_y82sy"]
+[ext_resource type="Texture2D" uid="uid://o0q1cwcc3b2c" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0217.png" id="217_66scw"]
+[ext_resource type="Texture2D" uid="uid://cd8op3c32nrd6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0218.png" id="218_16vjj"]
+[ext_resource type="Texture2D" uid="uid://dhwcfjwrkhkbl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0219.png" id="219_27rri"]
+[ext_resource type="Texture2D" uid="uid://bkk2sa5wldng4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0220.png" id="220_dm7ck"]
+[ext_resource type="Texture2D" uid="uid://c3mfkyxtk8pdc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0221.png" id="221_4ij7v"]
+[ext_resource type="Texture2D" uid="uid://l53j12py5hv3" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0222.png" id="222_856b2"]
+[ext_resource type="Texture2D" uid="uid://bvu0ir6dfqwk7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0223.png" id="223_11ht1"]
+[ext_resource type="Texture2D" uid="uid://cd237v3as0djp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0224.png" id="224_osnnr"]
+[ext_resource type="Texture2D" uid="uid://bn58gpf73afam" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0225.png" id="225_uxq4v"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c6vom"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_iyuiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gx2j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qi8pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wr8d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cmahp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vi2k8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_04w88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_gs505")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vpv8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bm7ev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_bx2co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bv8ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_b00yb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_x8mxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_sow0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6lio7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_scdm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_lyg4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_tyx1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_u3xep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_y4jr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4hyol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2gcvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_t4mas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_prbs4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yft0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ni2w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_3pctp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ekfrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_fqyhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_fk5uj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_dgum2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_due4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_53p5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_h67wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_of80r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_uhat3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_fs124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ekhvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6028l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_0jknu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_m28py")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_4wq0n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_p3sfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_kdehv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_hembs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_oglbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_kvmt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_1kv4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_0psw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_rj6qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_wgtdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_m7gvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_fdb5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_n72e2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_e4j6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_y55sb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_va1ya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ro6rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_lixu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_7ktol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_3l31q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_lr8cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_f5bj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_pyf3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_mi7jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_r3h67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_202xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_wy0f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_8xlan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_0tten")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_t236s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_8hl31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_1mo1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_j28t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_wujq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_xq08h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_a7ghq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_4pt72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_v825v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_84nj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_u64hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_0ar1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_vas0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_y4451")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_3asdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_mbtih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_2xff5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_78448")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_s20xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_5w1mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_tspqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_ku6bt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_dlq8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_yh1se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_sqhro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_ukc7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_xngdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ntsix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_6bbq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_pjqul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_4uwmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_d4wtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_3y5r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_wqqpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_5liss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_tjhki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_r0l6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_5ag5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_8ymh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_u78iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_ks3od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_lg8ra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_es2ee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_kaylh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_3qpmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_tji1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_2alwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_7myh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_5a1ny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_4stoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_tomcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_7x58b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_7n3vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_25ygj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_0a1tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_k6qf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_2ngj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_8iky4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_3oiw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_k0o0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_h77p1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_dql3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_6psbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_ijml3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_6xtog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_a7smo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_ti6j2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_c617j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_n26b5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_yqu8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_n8ii7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_g71lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_xqah5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_8eh58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_l4unk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_qy6os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_3827y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_b6kui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_excrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_8vgwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_kdm4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_txx6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_hi6p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_ciehx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_gc0r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_fcoyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_mkce1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_6788g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_icvab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_w6xpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_qpn1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_2o5kh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_le1tr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_aymyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_mrc6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_ksf5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_2n0i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_enwc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_rj2lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_xmf3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_x2l1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_dmdtl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_2pal7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_o7bk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_1txj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_fjgmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_dwm2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_c0qbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_q310a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_klmj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_u7oen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_p5os5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_8w3ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_0pw5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_nveef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_vsat7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_1xh5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_dq5ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_w0lsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_cbgmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_kr761")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_p8k2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_xphqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_qrnux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_temo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_akllr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_2nhti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_8vbn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_b0m5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_6ki8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_1sn2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_fj826")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_hvedi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_v7l2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_qiegl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_if301")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_hjlol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_51tfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_1uwbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_rb5c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_b24mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_2pttk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_l8j7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_a6nrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_y82sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_66scw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_16vjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_27rri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_dm7ck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_4ij7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_856b2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_11ht1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_osnnr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_uxq4v")
+}],
+"loop": true,
+"name": &"bullfinch_fly",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mxumo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gk3ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_q0hbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kd68v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y4wfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_red5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_pldol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rn0s7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ns32p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_g4gct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0xj1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ubola")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1i4cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_x12yg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_wsx22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_skwwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_grml1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qvmyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ryibq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ilykf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_5upsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_7yfgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_hga5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_didwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_72lao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_3e1kp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8v1fv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4nsn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_5uist")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_hdv3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_2xrwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_a17oq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_x364s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_161jl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_krymb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_4f2pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ugvq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0mlt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_0y41p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_a7a6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_tu32w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_7435d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_aoh2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_kaiiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_pmb36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jkkkk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_8jsle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ogts4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_nlrwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ps17n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_gaomj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_cu2vh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_n6prx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_hx65a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_qoanw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ivfgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_3d8a6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_l3qqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_t1dcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_rk7n7")
+}],
+"loop": true,
+"name": &"walk_warrior",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5ehp8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_c6vom")
+animation = &"bullfinch_fly"
+autoplay = "walk_warrior"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(15, 8)
+scale = Vector2(25, 25)
+shape = SubResource("CircleShape2D_5ehp8")

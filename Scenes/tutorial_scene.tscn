@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://cvxiw7rpa6105"]
+[gd_scene load_steps=24 format=4 uid="uid://cvxiw7rpa6105"]
 
 [ext_resource type="Texture2D" uid="uid://do3gjb5cmly48" path="res://Sprites/tutorialScene/Fon.png" id="1_qc1uj"]
 [ext_resource type="Texture2D" uid="uid://bxk0akxviri37" path="res://Sprites/tutorialScene/Zvezdy.png" id="2_7f8g8"]
@@ -15,6 +15,9 @@
 [ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
 [ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
 [ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
+[ext_resource type="PackedScene" uid="uid://c4xiwcc1w2o48" path="res://Scenes/bullfinch.tscn" id="17_66e2s"]
+[ext_resource type="PackedScene" uid="uid://d4nfssune0wmy" path="res://Scenes/warrior_lizard_green.tscn" id="18_tqcl1"]
+[ext_resource type="PackedScene" uid="uid://ixfxfp5lf1od" path="res://Scenes/warrior_lizard_black.tscn" id="19_e7hfx"]
 [ext_resource type="Texture2D" uid="uid://by1x3baar3x08" path="res://Sprites/Tiles/Geks0023.png" id="37_ew0vb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jocvd"]
@@ -118,3 +121,15 @@ script = ExtResource("14_c2gyy")
 position = Vector2(520, 260)
 scale = Vector2(1.05121, 0.998674)
 zoom = Vector2(0.6, 0.6)
+
+[node name="bullfinch" parent="." instance=ExtResource("17_66e2s")]
+position = Vector2(17, 595)
+scale = Vector2(0.25, 0.25)
+
+[node name="lizard_green" parent="." instance=ExtResource("18_tqcl1")]
+position = Vector2(747, 689)
+scale = Vector2(0.15, 0.15)
+
+[node name="lizard_black" parent="." instance=ExtResource("19_e7hfx")]
+position = Vector2(676, 588)
+scale = Vector2(0.15, 0.15)
