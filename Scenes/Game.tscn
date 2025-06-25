@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://do7m3jx3gaweh"]
 
-[ext_resource type="PackedScene" uid="uid://bfy5qf3oc3rvd" path="res://warrior_blue.tscn" id="1_gl6un"]
-[ext_resource type="PackedScene" uid="uid://dl7dky5tj43ey" path="res://warrior_red.tscn" id="2_j5yw3"]
+[ext_resource type="PackedScene" uid="uid://bfy5qf3oc3rvd" path="res://Scenes/warrior_blue.tscn" id="1_gl6un"]
+[ext_resource type="PackedScene" uid="uid://dl7dky5tj43ey" path="res://Scenes/warrior_red.tscn" id="2_j5yw3"]
 
 [node name="Game" type="Node2D"]
 position = Vector2(827, 302)

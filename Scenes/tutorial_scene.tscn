@@ -1,135 +1,72 @@
-[gd_scene load_steps=15 format=3 uid="uid://cvxiw7rpa6105"]
+[gd_scene load_steps=21 format=4 uid="uid://cvxiw7rpa6105"]
 
 [ext_resource type="Texture2D" uid="uid://do3gjb5cmly48" path="res://Sprites/tutorialScene/Fon.png" id="1_qc1uj"]
 [ext_resource type="Texture2D" uid="uid://bxk0akxviri37" path="res://Sprites/tutorialScene/Zvezdy.png" id="2_7f8g8"]
 [ext_resource type="Texture2D" uid="uid://cxoaifou4r34c" path="res://Sprites/tutorialScene/Ornament.png" id="3_2moqc"]
-[ext_resource type="Script" path="res://ornament.gd" id="4_kcl8b"]
+[ext_resource type="Script" uid="uid://dnikd4b5b6nwp" path="res://Scripts/ornament.gd" id="4_haxi5"]
 [ext_resource type="Texture2D" uid="uid://0l56pjctxd6p" path="res://Sprites/tutorialScene/Luna.png" id="5_haxi5"]
+[ext_resource type="Script" uid="uid://dnifxe124ck8w" path="res://Scripts/luna.gd" id="6_cmr4g"]
 [ext_resource type="Texture2D" uid="uid://dyn1lllu8itqo" path="res://Sprites/tutorialScene/Gora.png" id="6_m7jwp"]
 [ext_resource type="Texture2D" uid="uid://dle4gpjtdufqt" path="res://Sprites/tutorialScene/Simvol_1.png" id="7_cmr4g"]
+[ext_resource type="Script" uid="uid://ctrjas4smmls5" path="res://Scripts/gora.gd" id="8_5x4xl"]
 [ext_resource type="Texture2D" uid="uid://1t75ajye6b3c" path="res://Sprites/tutorialScene/Simvol_2.png" id="8_c2gyy"]
+[ext_resource type="Script" uid="uid://b3umdjy6tgy08" path="res://Scripts/simvol_1.gd" id="10_hqtx2"]
+[ext_resource type="Script" uid="uid://cqdwl1b2a8fs0" path="res://Scripts/simvol_2.gd" id="12_of731"]
+[ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
+[ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
+[ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
+[ext_resource type="Texture2D" uid="uid://by1x3baar3x08" path="res://Sprites/Tiles/Geks0023.png" id="37_ew0vb"]
 
-[sub_resource type="Animation" id="Animation_7f8g8"]
-length = 20.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 19.8667),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(529, 410), Vector2(529, 329)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("../Ornament:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0.0333333, 10, 19.8667),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [0.0, -0.226893, 0.39619]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("../Luna:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0.133333, 19.8667),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [0.0, 6.28319]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("../Simvol1:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0.1, 19.8333),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(853, 500), Vector2(853, 550)]
-}
-tracks/4/type = "value"
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/path = NodePath("../Simvol2:position")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = {
-"times": PackedFloat32Array(0.0666667, 19.9),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(528, 631), Vector2(528, 524)]
-}
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jocvd"]
+texture = ExtResource("13_3csi8")
+texture_region_size = Vector2i(720, 770)
+0:0/animation_columns = 10
+0:0/animation_speed = 10.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/animation_frame_8/duration = 1.0
+0:0/animation_frame_9/duration = 1.0
+0:0/animation_frame_10/duration = 1.0
+0:0/animation_frame_11/duration = 1.0
+0:0/animation_frame_12/duration = 1.0
+0:0/animation_frame_13/duration = 1.0
+0:0/animation_frame_14/duration = 1.0
+0:0/animation_frame_15/duration = 1.0
+0:0/animation_frame_16/duration = 1.0
+0:0/animation_frame_17/duration = 1.0
+0:0/animation_frame_18/duration = 1.0
+0:0/animation_frame_19/duration = 1.0
+0:0/animation_frame_20/duration = 1.0
+0:0/animation_frame_21/duration = 1.0
+0:0/animation_frame_22/duration = 1.0
+0:0/0 = 0
 
-[sub_resource type="Animation" id="Animation_qc1uj"]
-resource_name = "up_mountain"
-length = 10.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.0333333, 10),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(529, 529), Vector2(529, 229)]
-}
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3csi8"]
+texture = ExtResource("13_cmr4g")
+margins = Vector2i(290, 245)
+texture_region_size = Vector2i(720, 770)
+0:0/0 = 0
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_2moqc"]
-_data = {
-&"RESET": SubResource("Animation_7f8g8"),
-&"up_mountain": SubResource("Animation_qc1uj")
-}
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pbas7"]
+texture = ExtResource("37_ew0vb")
+margins = Vector2i(290, 245)
+texture_region_size = Vector2i(720, 770)
+0:0/0 = 0
 
-[sub_resource type="Animation" id="Animation_haxi5"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Luna:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(666, 197)]
-}
-
-[sub_resource type="Animation" id="Animation_kcl8b"]
-resource_name = "animation_curve"
-length = 10.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Luna:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.0333333, 9.93333),
-"transitions": PackedFloat32Array(1, 1.86607),
-"update": 0,
-"values": [Vector2(666, 197), Vector2(666, 197)]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_m7jwp"]
-_data = {
-&"RESET": SubResource("Animation_haxi5"),
-&"animation_curve": SubResource("Animation_kcl8b")
-}
+[sub_resource type="TileSet" id="TileSet_hqtx2"]
+tile_shape = 3
+tile_size = Vector2i(720, 770)
+sources/23 = SubResource("TileSetAtlasSource_jocvd")
+sources/24 = SubResource("TileSetAtlasSource_3csi8")
+sources/25 = SubResource("TileSetAtlasSource_pbas7")
+tile_proxies/coords_level = [[0, Vector2i(0, 0)], [23, Vector2i(0, 0)], [1, Vector2i(0, 0)], [23, Vector2i(1, 0)], [2, Vector2i(0, 0)], [23, Vector2i(2, 0)], [3, Vector2i(0, 0)], [23, Vector2i(3, 0)], [4, Vector2i(0, 0)], [23, Vector2i(4, 0)], [5, Vector2i(0, 0)], [23, Vector2i(5, 0)], [6, Vector2i(0, 0)], [23, Vector2i(6, 0)], [7, Vector2i(0, 0)], [23, Vector2i(7, 0)], [8, Vector2i(0, 0)], [23, Vector2i(8, 0)], [9, Vector2i(0, 0)], [23, Vector2i(9, 0)], [10, Vector2i(0, 0)], [23, Vector2i(0, 1)], [11, Vector2i(0, 0)], [23, Vector2i(1, 1)], [12, Vector2i(0, 0)], [23, Vector2i(2, 1)], [13, Vector2i(0, 0)], [23, Vector2i(3, 1)], [14, Vector2i(0, 0)], [23, Vector2i(4, 1)], [15, Vector2i(0, 0)], [23, Vector2i(5, 1)], [16, Vector2i(0, 0)], [23, Vector2i(6, 1)], [17, Vector2i(0, 0)], [23, Vector2i(7, 1)], [18, Vector2i(0, 0)], [23, Vector2i(8, 1)], [19, Vector2i(0, 0)], [23, Vector2i(9, 1)], [20, Vector2i(0, 0)], [23, Vector2i(0, 2)], [21, Vector2i(0, 0)], [23, Vector2i(1, 2)], [22, Vector2i(0, 0)], [23, Vector2i(2, 2)]]
 
 [node name="tutorialScene" type="Node2D"]
 
@@ -147,32 +84,37 @@ texture = ExtResource("2_7f8g8")
 [node name="Ornament" type="Sprite2D" parent="Node2D"]
 position = Vector2(517, 244)
 texture = ExtResource("3_2moqc")
-script = ExtResource("4_kcl8b")
+script = ExtResource("4_haxi5")
 
 [node name="Luna" type="Sprite2D" parent="Node2D"]
-position = Vector2(666, 197)
+position = Vector2(520, 166)
 texture = ExtResource("5_haxi5")
+script = ExtResource("6_cmr4g")
 
 [node name="Gora" type="Sprite2D" parent="Node2D"]
 position = Vector2(529, 410)
 texture = ExtResource("6_m7jwp")
+script = ExtResource("8_5x4xl")
 
 [node name="Simvol1" type="Sprite2D" parent="Node2D"]
 position = Vector2(853, 500)
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("7_cmr4g")
-
-[node name="AnimationTree" type="AnimationTree" parent="Node2D/Simvol1"]
-root_node = NodePath("../../Gora")
-libraries = {
-&"": SubResource("AnimationLibrary_2moqc")
-}
+script = ExtResource("10_hqtx2")
 
 [node name="Simvol2" type="Sprite2D" parent="Node2D"]
 position = Vector2(528, 631)
 texture = ExtResource("8_c2gyy")
+script = ExtResource("12_of731")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Node2D"]
-libraries = {
-&"": SubResource("AnimationLibrary_m7jwp")
-}
+[node name="TileMapLayer" type="TileMapLayer" parent="Node2D"]
+position = Vector2(539, 657)
+scale = Vector2(0.18, 0.18)
+tile_map_data = PackedByteArray("AAD8////GAAAAAAAAAD9/wAAGAAAAAAAAAD9////GAAAAAAAAAD+/wAAGAAAAAAAAAD+////GAAAAAAAAAD//wAAGAAAAAAAAAD/////GAAAAAAAAAAAAAAAGAAAAAAAAAAAAP//GAAAAAAAAAABAAAAGAAAAAAAAAD7////GAAAAAAAAAD8/wAAGAAAAAAAAAA=")
+tile_set = SubResource("TileSet_hqtx2")
+script = ExtResource("14_c2gyy")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(520, 260)
+scale = Vector2(1.05121, 0.998674)
+zoom = Vector2(0.6, 0.6)
