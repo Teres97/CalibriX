@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://cvxiw7rpa6105"]
+[gd_scene load_steps=24 format=4 uid="uid://cvxiw7rpa6105"]
 
 [ext_resource type="Texture2D" uid="uid://do3gjb5cmly48" path="res://Sprites/tutorialScene/Fon.png" id="1_qc1uj"]
 [ext_resource type="Script" uid="uid://bk3qldf1u3usp" path="res://Scenes/tutorial_scene.gd" id="1_tqcl1"]
@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
 [ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
 [ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
+[ext_resource type="Texture2D" uid="uid://bexhy53sx62bl" path="res://Sprites/Tiles/Geks0001_blue.webp" id="17_of731"]
 [ext_resource type="Texture2D" uid="uid://by1x3baar3x08" path="res://Sprites/Tiles/Geks0023.png" id="37_ew0vb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jocvd"]
@@ -23,7 +24,6 @@ texture = ExtResource("13_3csi8")
 texture_region_size = Vector2i(720, 770)
 0:0/animation_columns = 10
 0:0/animation_speed = 10.0
-0:0/animation_mode = 1
 0:0/animation_frame_0/duration = 1.0
 0:0/animation_frame_1/duration = 1.0
 0:0/animation_frame_2/duration = 1.0
@@ -51,22 +51,28 @@ texture_region_size = Vector2i(720, 770)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3csi8"]
 texture = ExtResource("13_cmr4g")
-margins = Vector2i(290, 245)
-texture_region_size = Vector2i(720, 770)
+texture_region_size = Vector2i(1300, 1300)
+use_texture_padding = false
+0:0/next_alternative_id = 2
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pbas7"]
 texture = ExtResource("37_ew0vb")
-margins = Vector2i(290, 245)
-texture_region_size = Vector2i(720, 770)
+texture_region_size = Vector2i(1300, 1300)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_66e2s"]
+texture = ExtResource("17_of731")
+texture_region_size = Vector2i(1300, 1300)
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_hqtx2"]
 tile_shape = 3
-tile_size = Vector2i(720, 770)
+tile_size = Vector2i(800, 900)
 sources/23 = SubResource("TileSetAtlasSource_jocvd")
 sources/24 = SubResource("TileSetAtlasSource_3csi8")
 sources/25 = SubResource("TileSetAtlasSource_pbas7")
+sources/27 = SubResource("TileSetAtlasSource_66e2s")
 tile_proxies/coords_level = [[0, Vector2i(0, 0)], [23, Vector2i(0, 0)], [1, Vector2i(0, 0)], [23, Vector2i(1, 0)], [2, Vector2i(0, 0)], [23, Vector2i(2, 0)], [3, Vector2i(0, 0)], [23, Vector2i(3, 0)], [4, Vector2i(0, 0)], [23, Vector2i(4, 0)], [5, Vector2i(0, 0)], [23, Vector2i(5, 0)], [6, Vector2i(0, 0)], [23, Vector2i(6, 0)], [7, Vector2i(0, 0)], [23, Vector2i(7, 0)], [8, Vector2i(0, 0)], [23, Vector2i(8, 0)], [9, Vector2i(0, 0)], [23, Vector2i(9, 0)], [10, Vector2i(0, 0)], [23, Vector2i(0, 1)], [11, Vector2i(0, 0)], [23, Vector2i(1, 1)], [12, Vector2i(0, 0)], [23, Vector2i(2, 1)], [13, Vector2i(0, 0)], [23, Vector2i(3, 1)], [14, Vector2i(0, 0)], [23, Vector2i(4, 1)], [15, Vector2i(0, 0)], [23, Vector2i(5, 1)], [16, Vector2i(0, 0)], [23, Vector2i(6, 1)], [17, Vector2i(0, 0)], [23, Vector2i(7, 1)], [18, Vector2i(0, 0)], [23, Vector2i(8, 1)], [19, Vector2i(0, 0)], [23, Vector2i(9, 1)], [20, Vector2i(0, 0)], [23, Vector2i(0, 2)], [21, Vector2i(0, 0)], [23, Vector2i(1, 2)], [22, Vector2i(0, 0)], [23, Vector2i(2, 2)]]
 
 [node name="tutorialScene" type="Node2D"]
@@ -110,7 +116,7 @@ texture = ExtResource("8_c2gyy")
 script = ExtResource("12_of731")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="Node2D" node_paths=PackedStringArray("unit")]
-position = Vector2(539, 657)
+position = Vector2(556, 661)
 scale = Vector2(0.18, 0.18)
 tile_map_data = PackedByteArray("AAD8////GAAAAAAAAAD9/wAAGAAAAAAAAAD9////GAAAAAAAAAD+/wAAGAAAAAAAAAD+////GAAAAAAAAAD//wAAGAAAAAAAAAD/////GAAAAAAAAAAAAAAAGAAAAAAAAAAAAP//GAAAAAAAAAABAAAAGAAAAAAAAAD7////GAAAAAAAAAD8/wAAGAAAAAAAAAA=")
 tile_set = SubResource("TileSet_hqtx2")

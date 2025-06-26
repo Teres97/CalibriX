@@ -1176,9 +1176,9 @@ script = ExtResource("1_gx2j8")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_c6vom")
-animation = &"bullfinch_fly"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.361785
+frame_progress = 0.058155
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(15, 8)
