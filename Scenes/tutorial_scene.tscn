@@ -1,6 +1,7 @@
-[gd_scene load_steps=24 format=4 uid="uid://cvxiw7rpa6105"]
+[gd_scene load_steps=22 format=4 uid="uid://cvxiw7rpa6105"]
 
 [ext_resource type="Texture2D" uid="uid://do3gjb5cmly48" path="res://Sprites/tutorialScene/Fon.png" id="1_qc1uj"]
+[ext_resource type="Script" uid="uid://bk3qldf1u3usp" path="res://Scenes/tutorial_scene.gd" id="1_tqcl1"]
 [ext_resource type="Texture2D" uid="uid://bxk0akxviri37" path="res://Sprites/tutorialScene/Zvezdy.png" id="2_7f8g8"]
 [ext_resource type="Texture2D" uid="uid://cxoaifou4r34c" path="res://Sprites/tutorialScene/Ornament.png" id="3_2moqc"]
 [ext_resource type="Script" uid="uid://dnikd4b5b6nwp" path="res://Scripts/ornament.gd" id="4_haxi5"]
@@ -15,9 +16,6 @@
 [ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
 [ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
 [ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
-[ext_resource type="PackedScene" uid="uid://c4xiwcc1w2o48" path="res://Scenes/bullfinch.tscn" id="17_66e2s"]
-[ext_resource type="PackedScene" uid="uid://d4nfssune0wmy" path="res://Scenes/warrior_lizard_green.tscn" id="18_tqcl1"]
-[ext_resource type="PackedScene" uid="uid://ixfxfp5lf1od" path="res://Scenes/warrior_lizard_black.tscn" id="19_e7hfx"]
 [ext_resource type="Texture2D" uid="uid://by1x3baar3x08" path="res://Sprites/Tiles/Geks0023.png" id="37_ew0vb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jocvd"]
@@ -72,6 +70,7 @@ sources/25 = SubResource("TileSetAtlasSource_pbas7")
 tile_proxies/coords_level = [[0, Vector2i(0, 0)], [23, Vector2i(0, 0)], [1, Vector2i(0, 0)], [23, Vector2i(1, 0)], [2, Vector2i(0, 0)], [23, Vector2i(2, 0)], [3, Vector2i(0, 0)], [23, Vector2i(3, 0)], [4, Vector2i(0, 0)], [23, Vector2i(4, 0)], [5, Vector2i(0, 0)], [23, Vector2i(5, 0)], [6, Vector2i(0, 0)], [23, Vector2i(6, 0)], [7, Vector2i(0, 0)], [23, Vector2i(7, 0)], [8, Vector2i(0, 0)], [23, Vector2i(8, 0)], [9, Vector2i(0, 0)], [23, Vector2i(9, 0)], [10, Vector2i(0, 0)], [23, Vector2i(0, 1)], [11, Vector2i(0, 0)], [23, Vector2i(1, 1)], [12, Vector2i(0, 0)], [23, Vector2i(2, 1)], [13, Vector2i(0, 0)], [23, Vector2i(3, 1)], [14, Vector2i(0, 0)], [23, Vector2i(4, 1)], [15, Vector2i(0, 0)], [23, Vector2i(5, 1)], [16, Vector2i(0, 0)], [23, Vector2i(6, 1)], [17, Vector2i(0, 0)], [23, Vector2i(7, 1)], [18, Vector2i(0, 0)], [23, Vector2i(8, 1)], [19, Vector2i(0, 0)], [23, Vector2i(9, 1)], [20, Vector2i(0, 0)], [23, Vector2i(0, 2)], [21, Vector2i(0, 0)], [23, Vector2i(1, 2)], [22, Vector2i(0, 0)], [23, Vector2i(2, 2)]]
 
 [node name="tutorialScene" type="Node2D"]
+script = ExtResource("1_tqcl1")
 
 [node name="Node2D" type="Node2D" parent="."]
 
@@ -110,26 +109,15 @@ position = Vector2(528, 631)
 texture = ExtResource("8_c2gyy")
 script = ExtResource("12_of731")
 
-[node name="TileMapLayer" type="TileMapLayer" parent="Node2D"]
+[node name="TileMapLayer" type="TileMapLayer" parent="Node2D" node_paths=PackedStringArray("unit")]
 position = Vector2(539, 657)
 scale = Vector2(0.18, 0.18)
 tile_map_data = PackedByteArray("AAD8////GAAAAAAAAAD9/wAAGAAAAAAAAAD9////GAAAAAAAAAD+/wAAGAAAAAAAAAD+////GAAAAAAAAAD//wAAGAAAAAAAAAD/////GAAAAAAAAAAAAAAAGAAAAAAAAAAAAP//GAAAAAAAAAABAAAAGAAAAAAAAAD7////GAAAAAAAAAD8/wAAGAAAAAAAAAA=")
 tile_set = SubResource("TileSet_hqtx2")
 script = ExtResource("14_c2gyy")
+unit = NodePath("../..")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(520, 260)
 scale = Vector2(1.05121, 0.998674)
 zoom = Vector2(0.6, 0.6)
-
-[node name="bullfinch" parent="." instance=ExtResource("17_66e2s")]
-position = Vector2(17, 595)
-scale = Vector2(0.25, 0.25)
-
-[node name="lizard_green" parent="." instance=ExtResource("18_tqcl1")]
-position = Vector2(747, 689)
-scale = Vector2(0.15, 0.15)
-
-[node name="lizard_black" parent="." instance=ExtResource("19_e7hfx")]
-position = Vector2(676, 588)
-scale = Vector2(0.15, 0.15)
