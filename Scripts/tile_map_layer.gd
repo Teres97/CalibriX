@@ -26,9 +26,10 @@ func _unhandled_input(event):
 		var world_pos = get_global_mouse_position()
 		var local_pos = to_local(world_pos)
 		var cell = local_to_map(local_pos)
-		unit.move_unit_to_cell(cell)
-		print(cell)
-		play_tile_animation_once(cell)
+		if unit != null:
+			unit.move_unit_to_cell(cell)
+			print(cell)
+			play_tile_animation_once(cell)
 
 func play_tile_animation_once(cell: Vector2i):
 	# Заменяем на анимированный тайл (2.png)

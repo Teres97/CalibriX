@@ -1,6 +1,5 @@
-[gd_scene load_steps=289 format=3 uid="uid://c4xiwcc1w2o48"]
+[gd_scene load_steps=288 format=3 uid="uid://c4xiwcc1w2o48"]
 
-[ext_resource type="Script" uid="uid://712hodbchaff" path="res://Scenes/bullfinch.gd" id="1_gx2j8"]
 [ext_resource type="Texture2D" uid="uid://cqahwgteqgxar" path="res://Sprites/Units/Birds/Bullfinch/bullfinch top/bullfinch top0001.png" id="1_iyuiv"]
 [ext_resource type="Texture2D" uid="uid://c47f1lfn4wkon" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0001.png" id="1_mxumo"]
 [ext_resource type="Texture2D" uid="uid://c050krt14plry" path="res://Sprites/Units/Birds/Bullfinch/bullfinch stock/bullfinch stock0002.png" id="2_gk3ik"]
@@ -1171,7 +1170,6 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_5ehp8"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_gx2j8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -1184,3 +1182,9 @@ frame_progress = 0.058155
 position = Vector2(15, 8)
 scale = Vector2(25, 25)
 shape = SubResource("CircleShape2D_5ehp8")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -185.0
+offset_top = -327.0
+offset_right = 242.0
+offset_bottom = -251.0
