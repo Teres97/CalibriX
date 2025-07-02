@@ -5,14 +5,14 @@
 [ext_resource type="Texture2D" uid="uid://xbhr8w8dtcyr" path="res://Sprites/tutorialScene/stars.webp" id="3_nyymc"]
 [ext_resource type="Script" uid="uid://dnikd4b5b6nwp" path="res://Scripts/ornament.gd" id="4_haxi5"]
 [ext_resource type="Texture2D" uid="uid://cq8wuo6ri62n6" path="res://Sprites/tutorialScene/ornament.webp" id="4_hq7rx"]
-[ext_resource type="Script" uid="uid://dnifxe124ck8w" path="res://Scripts/luna.gd" id="6_cmr4g"]
+[ext_resource type="Script" uid="uid://dnifxe124ck8w" path="res://Scripts/moon.gd" id="6_cmr4g"]
 [ext_resource type="Texture2D" uid="uid://djoqge23g6sgj" path="res://Sprites/tutorialScene/moon.webp" id="6_o4iw8"]
-[ext_resource type="Script" uid="uid://ctrjas4smmls5" path="res://Scripts/gora.gd" id="8_5x4xl"]
+[ext_resource type="Script" uid="uid://ctrjas4smmls5" path="res://Scripts/mountain.gd" id="8_5x4xl"]
 [ext_resource type="Texture2D" uid="uid://bwx6wjdpyko4" path="res://Sprites/tutorialScene/mountain.webp" id="8_nyymc"]
 [ext_resource type="Texture2D" uid="uid://duesokq1gtatg" path="res://Sprites/tutorialScene/ground_tile.webp" id="10_54np5"]
-[ext_resource type="Script" uid="uid://b3umdjy6tgy08" path="res://Scripts/simvol_1.gd" id="10_hqtx2"]
+[ext_resource type="Script" uid="uid://b3umdjy6tgy08" path="res://Scripts/ground_tile.gd" id="10_hqtx2"]
 [ext_resource type="Texture2D" uid="uid://oqdqv7nmd4kx" path="res://Sprites/tutorialScene/ground.webp" id="12_gpfcy"]
-[ext_resource type="Script" uid="uid://cqdwl1b2a8fs0" path="res://Scripts/simvol_2.gd" id="12_of731"]
+[ext_resource type="Script" uid="uid://cqdwl1b2a8fs0" path="res://Scripts/ground.gd" id="12_of731"]
 [ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
 [ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
 [ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
@@ -142,7 +142,7 @@ sources/1 = SubResource("TileSetAtlasSource_66e2s")
 sources/27 = SubResource("TileSetAtlasSource_tqcl1")
 tile_proxies/coords_level = [[0, Vector2i(0, 0)], [23, Vector2i(0, 0)], [1, Vector2i(0, 0)], [23, Vector2i(1, 0)], [2, Vector2i(0, 0)], [23, Vector2i(2, 0)], [3, Vector2i(0, 0)], [23, Vector2i(3, 0)], [4, Vector2i(0, 0)], [23, Vector2i(4, 0)], [5, Vector2i(0, 0)], [23, Vector2i(5, 0)], [6, Vector2i(0, 0)], [23, Vector2i(6, 0)], [7, Vector2i(0, 0)], [23, Vector2i(7, 0)], [8, Vector2i(0, 0)], [23, Vector2i(8, 0)], [9, Vector2i(0, 0)], [23, Vector2i(9, 0)], [10, Vector2i(0, 0)], [23, Vector2i(0, 1)], [11, Vector2i(0, 0)], [23, Vector2i(1, 1)], [12, Vector2i(0, 0)], [23, Vector2i(2, 1)], [13, Vector2i(0, 0)], [23, Vector2i(3, 1)], [14, Vector2i(0, 0)], [23, Vector2i(4, 1)], [15, Vector2i(0, 0)], [23, Vector2i(5, 1)], [16, Vector2i(0, 0)], [23, Vector2i(6, 1)], [17, Vector2i(0, 0)], [23, Vector2i(7, 1)], [18, Vector2i(0, 0)], [23, Vector2i(8, 1)], [19, Vector2i(0, 0)], [23, Vector2i(9, 1)], [20, Vector2i(0, 0)], [23, Vector2i(0, 2)], [21, Vector2i(0, 0)], [23, Vector2i(1, 2)], [22, Vector2i(0, 0)], [23, Vector2i(2, 2)]]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_xqbh7"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_nyymc"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -326,7 +326,7 @@ animations = [{
 "texture": ExtResource("79_yhykd")
 }],
 "loop": true,
-"name": &"wait",
+"name": &"default",
 "speed": 30.0
 }]
 
@@ -335,12 +335,12 @@ script = ExtResource("1_tqcl1")
 
 [node name="Node2D" type="Node2D" parent="."]
 
-[node name="Fon" type="Sprite2D" parent="Node2D"]
+[node name="background" type="Sprite2D" parent="Node2D"]
 position = Vector2(520, 331.5)
 scale = Vector2(1, 1.13241)
 texture = ExtResource("2_nyymc")
 
-[node name="Zvezdy" type="Sprite2D" parent="Node2D"]
+[node name="stars" type="Sprite2D" parent="Node2D"]
 position = Vector2(521, 30)
 texture = ExtResource("3_nyymc")
 
@@ -349,23 +349,23 @@ position = Vector2(517, 244)
 texture = ExtResource("4_hq7rx")
 script = ExtResource("4_haxi5")
 
-[node name="Luna" type="Sprite2D" parent="Node2D"]
+[node name="moon" type="Sprite2D" parent="Node2D"]
 position = Vector2(520, 166)
 texture = ExtResource("6_o4iw8")
 script = ExtResource("6_cmr4g")
 
-[node name="Gora" type="Sprite2D" parent="Node2D"]
+[node name="mountain" type="Sprite2D" parent="Node2D"]
 position = Vector2(529, 410)
 texture = ExtResource("8_nyymc")
 script = ExtResource("8_5x4xl")
 
-[node name="Simvol1" type="Sprite2D" parent="Node2D"]
+[node name="ground_tile" type="Sprite2D" parent="Node2D"]
 position = Vector2(853, 500)
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("10_54np5")
 script = ExtResource("10_hqtx2")
 
-[node name="Simvol2" type="Sprite2D" parent="Node2D"]
+[node name="ground" type="Sprite2D" parent="Node2D"]
 position = Vector2(528, 631)
 texture = ExtResource("12_gpfcy")
 script = ExtResource("12_of731")
@@ -383,28 +383,18 @@ position = Vector2(520, 300)
 scale = Vector2(1.05121, 0.998674)
 zoom = Vector2(0.6, 0.6)
 
-[node name="Unit_Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Button" type="Button" parent="Camera2D"]
+offset_left = 775.297
+offset_top = 395.524
+offset_right = 1483.3
+offset_bottom = 1103.52
+scale = Vector2(0.191891, 0.20668)
+flat = true
 
-[node name="Container" type="Container" parent="Unit_Control"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="bullfinch_ico" type="AnimatedSprite2D" parent="Camera2D/Button"]
+position = Vector2(351.978, 353.673)
+sprite_frames = SubResource("SpriteFrames_nyymc")
+autoplay = "default"
+frame_progress = 0.450702
 
-[node name="Button" type="Button" parent="Unit_Control/Container"]
-layout_mode = 2
-
-[node name="bullfinch_icon" type="AnimatedSprite2D" parent="Unit_Control/Container/Button"]
-position = Vector2(1380, 760)
-scale = Vector2(0.4, 0.4)
-sprite_frames = SubResource("SpriteFrames_xqbh7")
-animation = &"wait"
-autoplay = "wait"
+[connection signal="pressed" from="Camera2D/Button" to="." method="_on_button_pressed"]
