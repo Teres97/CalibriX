@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dy64w5osd5xav"]
+
+[node name="Win" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+custom_minimum_size = Vector2(0, 0.73)
+offset_left = 1.0
+offset_top = -3.0
+offset_right = 1154.0
+offset_bottom = 666.0
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 58
+text = "You WIN"
+horizontal_alignment = 1
+vertical_alignment = 1

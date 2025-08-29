@@ -1,400 +1,221 @@
-[gd_scene load_steps=87 format=4 uid="uid://cvxiw7rpa6105"]
+[gd_scene load_steps=56 format=4 uid="uid://cvxiw7rpa6105"]
 
 [ext_resource type="Script" uid="uid://bk3qldf1u3usp" path="res://Scripts/tutorial_scene.gd" id="1_tqcl1"]
-[ext_resource type="Texture2D" uid="uid://xl15cgdpamuh" path="res://Sprites/tutorialScene/background_night.webp" id="2_nyymc"]
-[ext_resource type="Texture2D" uid="uid://xbhr8w8dtcyr" path="res://Sprites/tutorialScene/stars.webp" id="3_nyymc"]
-[ext_resource type="Script" uid="uid://dnikd4b5b6nwp" path="res://Scripts/ornament.gd" id="4_haxi5"]
-[ext_resource type="Texture2D" uid="uid://cq8wuo6ri62n6" path="res://Sprites/tutorialScene/ornament.webp" id="4_hq7rx"]
-[ext_resource type="Script" uid="uid://dnifxe124ck8w" path="res://Scripts/moon.gd" id="6_cmr4g"]
-[ext_resource type="Texture2D" uid="uid://djoqge23g6sgj" path="res://Sprites/tutorialScene/moon.webp" id="6_o4iw8"]
-[ext_resource type="Script" uid="uid://ctrjas4smmls5" path="res://Scripts/mountain.gd" id="8_5x4xl"]
-[ext_resource type="Texture2D" uid="uid://bwx6wjdpyko4" path="res://Sprites/tutorialScene/mountain.webp" id="8_nyymc"]
-[ext_resource type="Texture2D" uid="uid://duesokq1gtatg" path="res://Sprites/tutorialScene/ground_tile.webp" id="10_54np5"]
-[ext_resource type="Script" uid="uid://b3umdjy6tgy08" path="res://Scripts/ground_tile.gd" id="10_hqtx2"]
-[ext_resource type="Texture2D" uid="uid://oqdqv7nmd4kx" path="res://Sprites/tutorialScene/ground.webp" id="12_gpfcy"]
-[ext_resource type="Script" uid="uid://cqdwl1b2a8fs0" path="res://Scripts/ground.gd" id="12_of731"]
-[ext_resource type="Texture2D" uid="uid://cqb6m7bh3vlk3" path="res://Sprites/Tiles/tile_set.png" id="13_3csi8"]
-[ext_resource type="Texture2D" uid="uid://qg6lpxcsslsp" path="res://Sprites/Tiles/Geks0001.png" id="13_cmr4g"]
+[ext_resource type="Texture2D" uid="uid://xm0mhnu0r3jd" path="res://Sprites/tutorialScene/photo_2025-08-23 12.02.49.jpeg" id="2_epmsy"]
+[ext_resource type="Texture2D" uid="uid://cwgnihqxdjjdi" path="res://Sprites/Tiles/geksbase1-export.png" id="3_mw53g"]
+[ext_resource type="Texture2D" uid="uid://b0fxk6l802qrp" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0001.png" id="4_r7o0a"]
+[ext_resource type="Texture2D" uid="uid://c3s7qb03ygknm" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0010.png" id="5_77yy7"]
+[ext_resource type="Texture2D" uid="uid://ylxbd3crfosg" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0011.png" id="6_2tjxx"]
+[ext_resource type="Texture2D" uid="uid://hrbwuk357ko3" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0012.png" id="7_nstee"]
+[ext_resource type="Texture2D" uid="uid://c2jxpoyn2bpaq" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0013.png" id="8_2yj3p"]
+[ext_resource type="Texture2D" uid="uid://c0j03m11qyfax" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0014.png" id="9_pv7qq"]
+[ext_resource type="Texture2D" uid="uid://chschqmlpuo2s" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0015.png" id="10_sijbn"]
+[ext_resource type="Texture2D" uid="uid://b2hfo5hadca7p" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0016.png" id="11_xnc18"]
+[ext_resource type="Texture2D" uid="uid://cqstydcctmhju" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0017.png" id="12_wiaib"]
+[ext_resource type="Texture2D" uid="uid://bkf44b7l0k48h" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0018.png" id="13_3csi8"]
 [ext_resource type="Script" uid="uid://bxu2rdg4wvt3u" path="res://Scripts/tile_map_layer.gd" id="14_c2gyy"]
-[ext_resource type="Texture2D" uid="uid://bexhy53sx62bl" path="res://Sprites/Tiles/Geks0001_blue.webp" id="17_of731"]
-[ext_resource type="Texture2D" uid="uid://ci5k48jobgg34" path="res://Sprites/Tiles/selected_tile.webp" id="18_66e2s"]
-[ext_resource type="Texture2D" uid="uid://s5hb83krurnm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0001_результат.webp" id="20_nyymc"]
-[ext_resource type="Texture2D" uid="uid://ihqw5qr25sj4" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0002_результат.webp" id="21_hq7rx"]
-[ext_resource type="Texture2D" uid="uid://doui7da87764f" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0003_результат.webp" id="22_o4iw8"]
-[ext_resource type="Texture2D" uid="uid://b3hb6wariuye2" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0004_результат.webp" id="23_54np5"]
-[ext_resource type="Texture2D" uid="uid://blkddesacvig6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0005_результат.webp" id="24_gpfcy"]
-[ext_resource type="Texture2D" uid="uid://biufvom0bmpbe" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0006_результат.webp" id="25_iwqgt"]
-[ext_resource type="Texture2D" uid="uid://b6kelr84qc4hy" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0007_результат.webp" id="26_2mc0p"]
-[ext_resource type="Texture2D" uid="uid://cmljkwy1xv7p6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0008_результат.webp" id="27_w2hld"]
-[ext_resource type="Texture2D" uid="uid://5qug6vrurpyq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0009_результат.webp" id="28_rmycw"]
-[ext_resource type="Texture2D" uid="uid://xtu0orugq2oq" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0010_результат.webp" id="29_h1dsx"]
-[ext_resource type="Texture2D" uid="uid://bp4wf170p3i4p" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0011_результат.webp" id="30_g1pqq"]
-[ext_resource type="Texture2D" uid="uid://dkwfvo8hwv8cx" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0012_результат.webp" id="31_jvf47"]
-[ext_resource type="Texture2D" uid="uid://6max72rb7do" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0013_результат.webp" id="32_7yohx"]
-[ext_resource type="Texture2D" uid="uid://d5i1jpbriiyl" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0014_результат.webp" id="33_tt3t6"]
-[ext_resource type="Texture2D" uid="uid://k0nrpd0msmsn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0015_результат.webp" id="34_047cf"]
-[ext_resource type="Texture2D" uid="uid://bmvffqnw66irf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0016_результат.webp" id="35_efhpi"]
-[ext_resource type="Texture2D" uid="uid://bt8tg02tpay87" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0017_результат.webp" id="36_cpc1e"]
-[ext_resource type="Texture2D" uid="uid://4ebblnhv7dio" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0018_результат.webp" id="37_4kg7l"]
-[ext_resource type="Texture2D" uid="uid://by1x3baar3x08" path="res://Sprites/Tiles/Geks0023.png" id="37_ew0vb"]
-[ext_resource type="Texture2D" uid="uid://chlmm56sqs45v" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0019_результат.webp" id="38_k4eun"]
-[ext_resource type="Texture2D" uid="uid://c0hsry7b5dqsc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0020_результат.webp" id="39_j62gp"]
-[ext_resource type="Texture2D" uid="uid://bi1f64a0e0o5o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0021_результат.webp" id="40_08i4d"]
-[ext_resource type="Texture2D" uid="uid://2etcte03h2qj" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0022_результат.webp" id="41_03oww"]
-[ext_resource type="Texture2D" uid="uid://co82xypilq5sf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0023_результат.webp" id="42_ooi6u"]
-[ext_resource type="Texture2D" uid="uid://bhhsqjcuxpy6o" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0024_результат.webp" id="43_sk8tx"]
-[ext_resource type="Texture2D" uid="uid://vus07b033rwe" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0025_результат.webp" id="44_evht4"]
-[ext_resource type="Texture2D" uid="uid://s31jg5lhxlt1" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0026_результат.webp" id="45_ec1qe"]
-[ext_resource type="Texture2D" uid="uid://bswrq7nw7ngqu" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0027_результат.webp" id="46_p80k7"]
-[ext_resource type="Texture2D" uid="uid://binsjoll3d45h" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0028_результат.webp" id="47_6xehf"]
-[ext_resource type="Texture2D" uid="uid://bogu36xxx74tn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0029_результат.webp" id="48_pejew"]
-[ext_resource type="Texture2D" uid="uid://dobaqr7q80uno" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0030_результат.webp" id="49_wilxh"]
-[ext_resource type="Texture2D" uid="uid://dp22yulbxfowt" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0031_результат.webp" id="50_l1t8b"]
-[ext_resource type="Texture2D" uid="uid://dl8m8saeu3a2n" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0032_результат.webp" id="51_ofjbe"]
-[ext_resource type="Texture2D" uid="uid://bfswsbyuc6sjf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0033_результат.webp" id="52_p4fwh"]
-[ext_resource type="Texture2D" uid="uid://day5ddo81nyqf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0034_результат.webp" id="53_xuvh5"]
-[ext_resource type="Texture2D" uid="uid://bgbvlj0cjrm0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0035_результат.webp" id="54_a6fre"]
-[ext_resource type="Texture2D" uid="uid://b1g7vgun0ougn" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0036_результат.webp" id="55_kg57m"]
-[ext_resource type="Texture2D" uid="uid://c6u6txedjtq51" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0037_результат.webp" id="56_pfaay"]
-[ext_resource type="Texture2D" uid="uid://cou4kgwkybljo" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0038_результат.webp" id="57_yuq74"]
-[ext_resource type="Texture2D" uid="uid://dd3my0hhtwlnx" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0039_результат.webp" id="58_ucveq"]
-[ext_resource type="Texture2D" uid="uid://6jmqal8gqyhi" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0040_результат.webp" id="59_8y6y6"]
-[ext_resource type="Texture2D" uid="uid://byy2y2tpycrqw" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0041_результат.webp" id="60_vt0ed"]
-[ext_resource type="Texture2D" uid="uid://ldklw01e80c7" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0042_результат.webp" id="61_ecygv"]
-[ext_resource type="Texture2D" uid="uid://bpgnrjrn5kj62" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0043_результат.webp" id="62_k5jdt"]
-[ext_resource type="Texture2D" uid="uid://6nceyokctval" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0044_результат.webp" id="63_fxlbl"]
-[ext_resource type="Texture2D" uid="uid://b657uusxqt53y" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0045_результат.webp" id="64_pgrtq"]
-[ext_resource type="Texture2D" uid="uid://cn0al043wxmcf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0046_результат.webp" id="65_vr7jf"]
-[ext_resource type="Texture2D" uid="uid://dxl3kqf1wxfsc" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0047_результат.webp" id="66_mrit7"]
-[ext_resource type="Texture2D" uid="uid://wgda0r10j2n" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0048_результат.webp" id="67_mjtv6"]
-[ext_resource type="Texture2D" uid="uid://coccd3aju5p0m" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0049_результат.webp" id="68_2p5nw"]
-[ext_resource type="Texture2D" uid="uid://j3lotqk8hodf" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0050_результат.webp" id="69_cij0r"]
-[ext_resource type="Texture2D" uid="uid://bulv0f206dgs0" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0051_результат.webp" id="70_ipirm"]
-[ext_resource type="Texture2D" uid="uid://det61euqev5cg" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0052_результат.webp" id="71_0ssit"]
-[ext_resource type="Texture2D" uid="uid://c5luysv3gpw70" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0053_результат.webp" id="72_8abgv"]
-[ext_resource type="Texture2D" uid="uid://dowmddnp1cru6" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0054_результат.webp" id="73_8jphi"]
-[ext_resource type="Texture2D" uid="uid://c4qk2tcwklq4u" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0055_результат.webp" id="74_1npw5"]
-[ext_resource type="Texture2D" uid="uid://bfi6bjns3co30" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0056_результат.webp" id="75_4ut3i"]
-[ext_resource type="Texture2D" uid="uid://bmgrf4m5bqvbi" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0057_результат.webp" id="76_3ye6i"]
-[ext_resource type="Texture2D" uid="uid://c3wqhaggchxfp" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0058_результат.webp" id="77_rsw3h"]
-[ext_resource type="Texture2D" uid="uid://cqw2mim04k7bm" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0059_результат.webp" id="78_q5ya3"]
-[ext_resource type="Texture2D" uid="uid://b1aiv6ffdne3f" path="res://Sprites/Units/Birds/Bullfinch/bullfinch-ico/Снигирь ico0060_результат.webp" id="79_yhykd"]
+[ext_resource type="Texture2D" uid="uid://bfwt16f8ysxp2" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0019.png" id="14_pbas7"]
+[ext_resource type="Texture2D" uid="uid://dkwq3klqvtjvf" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0002.png" id="15_76qm1"]
+[ext_resource type="Texture2D" uid="uid://c0hxfwft46rcv" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0020.png" id="16_kt4ty"]
+[ext_resource type="Texture2D" uid="uid://bug355orgfw5d" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0021.png" id="17_0xj5s"]
+[ext_resource type="Texture2D" uid="uid://cwrhytt47aki7" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0022.png" id="18_eln8b"]
+[ext_resource type="Texture2D" uid="uid://cfq5ld2naeanj" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0023.png" id="19_vndqv"]
+[ext_resource type="Texture2D" uid="uid://btee22w5qo20c" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0024.png" id="20_6aghx"]
+[ext_resource type="Texture2D" uid="uid://cmfk0h24bhfdb" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0003.png" id="21_fvrlv"]
+[ext_resource type="Texture2D" uid="uid://bjg6d1c33dly3" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0004.png" id="22_hpo66"]
+[ext_resource type="Texture2D" uid="uid://c13sdrnef2b10" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0005.png" id="23_ci108"]
+[ext_resource type="Texture2D" uid="uid://bdno5800iwp36" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0006.png" id="24_y8jtj"]
+[ext_resource type="Texture2D" uid="uid://dd3gbk1l0qilc" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0007.png" id="25_kxbhm"]
+[ext_resource type="Texture2D" uid="uid://xqs17xqflbox" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0008.png" id="26_kptkp"]
+[ext_resource type="Texture2D" uid="uid://blmbcmqoe3kem" path="res://Sprites/Tiles/geks-green/Безымянный-1.gif0009.png" id="27_fkdav"]
+[ext_resource type="PackedScene" uid="uid://ugdtk7fktqag" path="res://Scenes/Menu.tscn" id="29_77yy7"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_66e2s"]
-texture = ExtResource("17_of731")
-texture_region_size = Vector2i(1300, 1300)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oaf0i"]
+texture = ExtResource("3_mw53g")
+texture_region_size = Vector2i(70, 78)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wgyhs"]
+texture = ExtResource("4_r7o0a")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gxg5d"]
+texture = ExtResource("5_77yy7")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6hfw7"]
+texture = ExtResource("6_2tjxx")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0wing"]
+texture = ExtResource("7_nstee")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iae2e"]
+texture = ExtResource("8_2yj3p")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_biybh"]
+texture = ExtResource("9_pv7qq")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cjdlm"]
+texture = ExtResource("10_sijbn")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ew0vb"]
+texture = ExtResource("11_xnc18")
+texture_region_size = Vector2i(27, 32)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jocvd"]
+texture = ExtResource("12_wiaib")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m1q4e"]
 texture = ExtResource("13_3csi8")
-texture_region_size = Vector2i(720, 770)
-0:0/animation_columns = 10
-0:0/animation_speed = 10.0
-0:0/animation_frame_0/duration = 1.0
-0:0/animation_frame_1/duration = 1.0
-0:0/animation_frame_2/duration = 1.0
-0:0/animation_frame_3/duration = 1.0
-0:0/animation_frame_4/duration = 1.0
-0:0/animation_frame_5/duration = 1.0
-0:0/animation_frame_6/duration = 1.0
-0:0/animation_frame_7/duration = 1.0
-0:0/animation_frame_8/duration = 1.0
-0:0/animation_frame_9/duration = 1.0
-0:0/animation_frame_10/duration = 1.0
-0:0/animation_frame_11/duration = 1.0
-0:0/animation_frame_12/duration = 1.0
-0:0/animation_frame_13/duration = 1.0
-0:0/animation_frame_14/duration = 1.0
-0:0/animation_frame_15/duration = 1.0
-0:0/animation_frame_16/duration = 1.0
-0:0/animation_frame_17/duration = 1.0
-0:0/animation_frame_18/duration = 1.0
-0:0/animation_frame_19/duration = 1.0
-0:0/animation_frame_20/duration = 1.0
-0:0/animation_frame_21/duration = 1.0
-0:0/animation_frame_22/duration = 1.0
+texture_region_size = Vector2i(27, 32)
 0:0/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3csi8"]
-texture = ExtResource("13_cmr4g")
-texture_region_size = Vector2i(1300, 1300)
-use_texture_padding = false
-0:0/next_alternative_id = 2
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ivmts"]
+texture = ExtResource("14_pbas7")
+texture_region_size = Vector2i(27, 32)
 0:0/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pbas7"]
-texture = ExtResource("37_ew0vb")
-texture_region_size = Vector2i(1300, 1300)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o76fj"]
+texture = ExtResource("15_76qm1")
+texture_region_size = Vector2i(27, 32)
 0:0/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tqcl1"]
-texture = ExtResource("18_66e2s")
-texture_region_size = Vector2i(1300, 1300)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_em1kh"]
+texture = ExtResource("16_kt4ty")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q1pbw"]
+texture = ExtResource("17_0xj5s")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d1sub"]
+texture = ExtResource("18_eln8b")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aw4cj"]
+texture = ExtResource("19_vndqv")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qi0py"]
+texture = ExtResource("20_6aghx")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aj02e"]
+texture = ExtResource("21_fvrlv")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gur5e"]
+texture = ExtResource("22_hpo66")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gmnxf"]
+texture = ExtResource("23_ci108")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lxt3p"]
+texture = ExtResource("24_y8jtj")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7eun5"]
+texture = ExtResource("25_kxbhm")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_enm56"]
+texture = ExtResource("26_kptkp")
+texture_region_size = Vector2i(27, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t31il"]
+texture = ExtResource("27_fkdav")
+texture_region_size = Vector2i(27, 32)
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_hqtx2"]
 tile_shape = 3
-tile_size = Vector2i(800, 900)
-sources/23 = SubResource("TileSetAtlasSource_jocvd")
-sources/24 = SubResource("TileSetAtlasSource_3csi8")
-sources/25 = SubResource("TileSetAtlasSource_pbas7")
-sources/1 = SubResource("TileSetAtlasSource_66e2s")
-sources/27 = SubResource("TileSetAtlasSource_tqcl1")
+tile_size = Vector2i(32, 37)
+sources/0 = SubResource("TileSetAtlasSource_oaf0i")
+sources/1 = SubResource("TileSetAtlasSource_wgyhs")
+sources/2 = SubResource("TileSetAtlasSource_o76fj")
+sources/3 = SubResource("TileSetAtlasSource_aj02e")
+sources/4 = SubResource("TileSetAtlasSource_gur5e")
+sources/5 = SubResource("TileSetAtlasSource_gmnxf")
+sources/6 = SubResource("TileSetAtlasSource_lxt3p")
+sources/7 = SubResource("TileSetAtlasSource_7eun5")
+sources/8 = SubResource("TileSetAtlasSource_enm56")
+sources/9 = SubResource("TileSetAtlasSource_t31il")
+sources/10 = SubResource("TileSetAtlasSource_gxg5d")
+sources/11 = SubResource("TileSetAtlasSource_6hfw7")
+sources/12 = SubResource("TileSetAtlasSource_0wing")
+sources/13 = SubResource("TileSetAtlasSource_iae2e")
+sources/14 = SubResource("TileSetAtlasSource_biybh")
+sources/15 = SubResource("TileSetAtlasSource_cjdlm")
+sources/16 = SubResource("TileSetAtlasSource_ew0vb")
+sources/17 = SubResource("TileSetAtlasSource_jocvd")
+sources/18 = SubResource("TileSetAtlasSource_m1q4e")
+sources/19 = SubResource("TileSetAtlasSource_ivmts")
+sources/20 = SubResource("TileSetAtlasSource_em1kh")
+sources/21 = SubResource("TileSetAtlasSource_q1pbw")
+sources/22 = SubResource("TileSetAtlasSource_d1sub")
+sources/23 = SubResource("TileSetAtlasSource_aw4cj")
+sources/24 = SubResource("TileSetAtlasSource_qi0py")
 tile_proxies/coords_level = [[0, Vector2i(0, 0)], [23, Vector2i(0, 0)], [1, Vector2i(0, 0)], [23, Vector2i(1, 0)], [2, Vector2i(0, 0)], [23, Vector2i(2, 0)], [3, Vector2i(0, 0)], [23, Vector2i(3, 0)], [4, Vector2i(0, 0)], [23, Vector2i(4, 0)], [5, Vector2i(0, 0)], [23, Vector2i(5, 0)], [6, Vector2i(0, 0)], [23, Vector2i(6, 0)], [7, Vector2i(0, 0)], [23, Vector2i(7, 0)], [8, Vector2i(0, 0)], [23, Vector2i(8, 0)], [9, Vector2i(0, 0)], [23, Vector2i(9, 0)], [10, Vector2i(0, 0)], [23, Vector2i(0, 1)], [11, Vector2i(0, 0)], [23, Vector2i(1, 1)], [12, Vector2i(0, 0)], [23, Vector2i(2, 1)], [13, Vector2i(0, 0)], [23, Vector2i(3, 1)], [14, Vector2i(0, 0)], [23, Vector2i(4, 1)], [15, Vector2i(0, 0)], [23, Vector2i(5, 1)], [16, Vector2i(0, 0)], [23, Vector2i(6, 1)], [17, Vector2i(0, 0)], [23, Vector2i(7, 1)], [18, Vector2i(0, 0)], [23, Vector2i(8, 1)], [19, Vector2i(0, 0)], [23, Vector2i(9, 1)], [20, Vector2i(0, 0)], [23, Vector2i(0, 2)], [21, Vector2i(0, 0)], [23, Vector2i(1, 2)], [22, Vector2i(0, 0)], [23, Vector2i(2, 2)]]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_nyymc"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("20_nyymc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("21_hq7rx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("22_o4iw8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("23_54np5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("24_gpfcy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("25_iwqgt")
-}, {
-"duration": 1.0,
-"texture": ExtResource("26_2mc0p")
-}, {
-"duration": 1.0,
-"texture": ExtResource("27_w2hld")
-}, {
-"duration": 1.0,
-"texture": ExtResource("28_rmycw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("29_h1dsx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("30_g1pqq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("31_jvf47")
-}, {
-"duration": 1.0,
-"texture": ExtResource("32_7yohx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("33_tt3t6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("34_047cf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("35_efhpi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("36_cpc1e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("37_4kg7l")
-}, {
-"duration": 1.0,
-"texture": ExtResource("38_k4eun")
-}, {
-"duration": 1.0,
-"texture": ExtResource("39_j62gp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("40_08i4d")
-}, {
-"duration": 1.0,
-"texture": ExtResource("41_03oww")
-}, {
-"duration": 1.0,
-"texture": ExtResource("42_ooi6u")
-}, {
-"duration": 1.0,
-"texture": ExtResource("43_sk8tx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("44_evht4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("45_ec1qe")
-}, {
-"duration": 1.0,
-"texture": ExtResource("46_p80k7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("47_6xehf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("48_pejew")
-}, {
-"duration": 1.0,
-"texture": ExtResource("49_wilxh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("50_l1t8b")
-}, {
-"duration": 1.0,
-"texture": ExtResource("51_ofjbe")
-}, {
-"duration": 1.0,
-"texture": ExtResource("52_p4fwh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("53_xuvh5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("54_a6fre")
-}, {
-"duration": 1.0,
-"texture": ExtResource("55_kg57m")
-}, {
-"duration": 1.0,
-"texture": ExtResource("56_pfaay")
-}, {
-"duration": 1.0,
-"texture": ExtResource("57_yuq74")
-}, {
-"duration": 1.0,
-"texture": ExtResource("58_ucveq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("59_8y6y6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("60_vt0ed")
-}, {
-"duration": 1.0,
-"texture": ExtResource("61_ecygv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("62_k5jdt")
-}, {
-"duration": 1.0,
-"texture": ExtResource("63_fxlbl")
-}, {
-"duration": 1.0,
-"texture": ExtResource("64_pgrtq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("65_vr7jf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("66_mrit7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("67_mjtv6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("68_2p5nw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("69_cij0r")
-}, {
-"duration": 1.0,
-"texture": ExtResource("70_ipirm")
-}, {
-"duration": 1.0,
-"texture": ExtResource("71_0ssit")
-}, {
-"duration": 1.0,
-"texture": ExtResource("72_8abgv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("73_8jphi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("74_1npw5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("75_4ut3i")
-}, {
-"duration": 1.0,
-"texture": ExtResource("76_3ye6i")
-}, {
-"duration": 1.0,
-"texture": ExtResource("77_rsw3h")
-}, {
-"duration": 1.0,
-"texture": ExtResource("78_q5ya3")
-}, {
-"duration": 1.0,
-"texture": ExtResource("79_yhykd")
-}],
-"loop": true,
-"name": &"default",
-"speed": 30.0
-}]
 
 [node name="tutorialScene" type="Node2D"]
 script = ExtResource("1_tqcl1")
 
 [node name="Node2D" type="Node2D" parent="."]
+scale = Vector2(0.8, 0.8)
 
-[node name="background" type="Sprite2D" parent="Node2D"]
-position = Vector2(520, 331.5)
-scale = Vector2(1, 1.13241)
-texture = ExtResource("2_nyymc")
-
-[node name="stars" type="Sprite2D" parent="Node2D"]
-position = Vector2(521, 30)
-texture = ExtResource("3_nyymc")
-
-[node name="Ornament" type="Sprite2D" parent="Node2D"]
-position = Vector2(517, 244)
-texture = ExtResource("4_hq7rx")
-script = ExtResource("4_haxi5")
-
-[node name="moon" type="Sprite2D" parent="Node2D"]
-position = Vector2(520, 166)
-texture = ExtResource("6_o4iw8")
-script = ExtResource("6_cmr4g")
-
-[node name="mountain" type="Sprite2D" parent="Node2D"]
-position = Vector2(529, 410)
-texture = ExtResource("8_nyymc")
-script = ExtResource("8_5x4xl")
-
-[node name="ground_tile" type="Sprite2D" parent="Node2D"]
-position = Vector2(853, 500)
-scale = Vector2(0.7, 0.7)
-texture = ExtResource("10_54np5")
-script = ExtResource("10_hqtx2")
-
-[node name="ground" type="Sprite2D" parent="Node2D"]
-position = Vector2(528, 631)
-texture = ExtResource("12_gpfcy")
-script = ExtResource("12_of731")
+[node name="Photo2025-08-2312_02_49" type="Sprite2D" parent="Node2D"]
+position = Vector2(647.5, 423.125)
+scale = Vector2(1.65, 1.32)
+texture = ExtResource("2_epmsy")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="Node2D" node_paths=PackedStringArray("unit")]
 position = Vector2(556, 661)
-scale = Vector2(0.18, 0.18)
-tile_map_data = PackedByteArray("AAD8////GAAAAAAAAAD9/wAAGAAAAAAAAAD9////GAAAAAAAAAD+/wAAGAAAAAAAAAD+////GAAAAAAAAAD//wAAGAAAAAAAAAD/////GAAAAAAAAAAAAAAAGAAAAAAAAAAAAP//GAAAAAAAAAABAAAAGAAAAAAAAAD7////GAAAAAAAAAD8/wAAGAAAAAAAAAA=")
+scale = Vector2(3, 3)
+tile_map_data = PackedByteArray("AAAAAP7/AQAAAAAAAAD///n/AQAAAAAAAAAAAPn/AQAAAAAAAAABAPn/AQAAAAAAAAACAPr/AQAAAAAAAAABAPv/AQAAAAAAAAABAPz/AQAAAAAAAAABAP3/AQAAAAAAAAAAAP3/AQAAAAAAAAABAP7/AQAAAAAAAAD///3/AQAAAAAAAAAAAPz/AQAAAAAAAAD///v/AQAAAAAAAAAAAPv/AQAAAAAAAAAAAPr/AQAAAAAAAAABAPr/AQAAAAAAAAD///r/AQAAAAAAAAD+//r/AQAAAAAAAAD9//v/AQAAAAAAAAD9//r/AQAAAAAAAAD8//v/AQAAAAAAAAD7//v/AQAAAAAAAAD7//z/AQAAAAAAAAD6//z/AQAAAAAAAAD5//z/AQAAAAAAAAD4//3/AQAAAAAAAAD3//3/AQAAAAAAAAD5//3/AQAAAAAAAAD6//3/AQAAAAAAAAD8//z/AQAAAAAAAAD9//z/AQAAAAAAAAD+//z/AQAAAAAAAAD///z/AQAAAAAAAAD+//v/AQAAAAAAAAACAPv/AQAAAAAAAAADAPr/AQAAAAAAAAAEAPr/AQAAAAAAAAAEAPv/AQAAAAAAAAAFAPv/AQAAAAAAAAAGAPz/AQAAAAAAAAAHAPz/AQAAAAAAAAAHAP3/AQAAAAAAAAAIAP3/AQAAAAAAAAAJAP3/AQAAAAAAAAAGAP3/AQAAAAAAAAAFAP3/AQAAAAAAAAAFAPz/AQAAAAAAAAAEAPz/AQAAAAAAAAADAPz/AQAAAAAAAAACAPz/AQAAAAAAAAADAPv/AQAAAAAAAAACAP3/AQAAAAAAAAADAP3/AQAAAAAAAAAEAP3/AQAAAAAAAAAGAP7/AQAAAAAAAAAHAP7/AQAAAAAAAAAFAP7/AQAAAAAAAAAEAP7/AQAAAAAAAAADAP7/AQAAAAAAAAACAP7/AQAAAAAAAAAEAP//AQAAAAAAAAADAP//AQAAAAAAAAACAP//AQAAAAAAAAABAP//AQAAAAAAAAAFAP//AQAAAAAAAAADAAAAAQAAAAAAAAACAAAAAQAAAAAAAAD7//3/AQAAAAAAAAD8//3/AQAAAAAAAAD9//3/AQAAAAAAAAD+//7/AQAAAAAAAAD+//3/AQAAAAAAAAD9//7/AQAAAAAAAAD8//7/AQAAAAAAAAD7//7/AQAAAAAAAAD6//7/AQAAAAAAAAD5//7/AQAAAAAAAAD7////AQAAAAAAAAD8////AQAAAAAAAAD9////AQAAAAAAAAD+////AQAAAAAAAAD///7/AQAAAAAAAAD/////AQAAAAAAAAD9/wAAAQAAAAAAAAD+/wAAAQAAAAAAAAD//wAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAP//AQAAAAAAAAABAAAAAQAAAAAAAAD//wEAAQAAAAAAAAAAAAEAAQAAAAAAAAABAAEAAQAAAAAAAAAIAPz/AQAAAAAAAAA=")
 tile_set = SubResource("TileSet_hqtx2")
 script = ExtResource("14_c2gyy")
 unit = NodePath("../..")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(520, 300)
+position = Vector2(516, 338)
 scale = Vector2(1.05121, 0.998674)
 zoom = Vector2(0.6, 0.6)
 
-[node name="Button" type="Button" parent="Camera2D"]
-offset_left = 775.297
-offset_top = 395.524
-offset_right = 1483.3
-offset_bottom = 1103.52
-scale = Vector2(0.191891, 0.20668)
-flat = true
+[node name="Pause" type="Button" parent="."]
+offset_left = 1285.0
+offset_top = -191.0
+offset_right = 1340.0
+offset_bottom = -141.0
+text = "Pause"
 
-[node name="bullfinch_ico" type="AnimatedSprite2D" parent="Camera2D/Button"]
-position = Vector2(351.978, 353.673)
-sprite_frames = SubResource("SpriteFrames_nyymc")
-autoplay = "default"
-frame_progress = 0.450702
+[node name="Menu" parent="." instance=ExtResource("29_77yy7")]
 
-[connection signal="pressed" from="Camera2D/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Pause" to="." method="_on_pause_pressed"]

@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5k4fdo8kblwy"]
+
+[ext_resource type="Texture2D" uid="uid://ddijrokxcyoni" path="res://Sprites/Units/Birds/Stork/stork.png" id="1_xm7e6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5ehp8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c6vom"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xm7e6")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="stork" type="Node2D"]
+
+[node name="Counter" type="Label" parent="."]
+offset_left = -43.0
+offset_top = 46.0
+offset_right = 46.0
+offset_bottom = 95.0
+theme_override_font_sizes/font_size = 25
+text = "Test
+"
+horizontal_alignment = 1
+
+[node name="Area2D" type="Area2D" parent="."]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(4, 4)
+shape = SubResource("CircleShape2D_5ehp8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_c6vom")
+animation = &"idle"
+autoplay = "idle"

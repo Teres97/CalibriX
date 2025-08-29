@@ -2,10 +2,10 @@ extends TileMapLayer
 @export var unit: Node2D
 
 const ANIMATION_DURATION = 2.3
-const DEFAULT_TILE_SOURCE_ID = 24
-const HIGHLIGHT_TILE_SOURCE_ID = 27
-const ANIMATED_TILE_SOURCE_ID = 23
-const FINISHED_TILE_SOURCE_ID = 25
+const DEFAULT_TILE_SOURCE_ID = 1
+const HIGHLIGHT_TILE_SOURCE_ID = 5
+const ANIMATED_TILE_SOURCE_ID = 10
+const FINISHED_TILE_SOURCE_ID = 20
 
 var last_hovered_cell: Vector2i = Vector2i(-999, -999)
 
@@ -29,9 +29,13 @@ func _unhandled_input(event):
 			var local_pos = to_local(world_pos)
 			var cell = local_to_map(local_pos)
 			if unit != null:
-				unit.move_unit_to_cell(cell)
-				print(cell)
-				play_tile_animation_once(cell)
+				if get_cell_source_id(cell) == HIGHLIGHT_TILE_SOURCE_ID:
+					unit.move_unit_to_cell_parabola(cell)
+				var other_unit = unit.get_unit_at_position(cell)
+				if other_unit in unit.player_units:
+					unit.selected_unit = other_unit
+					unit.clear_highlight()
+					unit.show_highlight(2)
 
 
 func play_tile_animation_once(cell: Vector2i):

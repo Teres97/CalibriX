@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://dxouuloimxjc0"]
+
+[ext_resource type="Texture2D" uid="uid://ogvlkbu7klud" path="res://Sprites/Units/Opponents/gexdiger1.png" id="1_hmcv5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jmhc"]
+atlas = ExtResource("1_hmcv5")
+region = Rect2(0, 0, 89, 62)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c6vom"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jmhc")
+}],
+"loop": true,
+"name": &"walk_warrior",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5ehp8"]
+radius = 0.718406
+
+[node name="dex_diger" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -10)
+sprite_frames = SubResource("SpriteFrames_c6vom")
+animation = &"walk_warrior"
+autoplay = "walk_warrior"
+frame_progress = 0.482775
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(39, 39)
+shape = SubResource("CircleShape2D_5ehp8")
+
+[node name="Counter" type="Label" parent="."]
+offset_left = -26.0
+offset_top = 29.0
+offset_right = 25.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1

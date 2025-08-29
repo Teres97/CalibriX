@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://ugdtk7fktqag"]
+
+[ext_resource type="Script" uid="uid://dd17h5j4behnm" path="res://Scripts/menu.gd" id="1_3kf3n"]
+
+[node name="Menu" type="Node2D"]
+process_mode = 2
+script = ExtResource("1_3kf3n")
+
+[node name="Resume" type="Button" parent="."]
+offset_left = 450.0
+offset_top = 195.0
+offset_right = 719.0
+offset_bottom = 277.0
+text = "Resume"
+metadata/_edit_use_anchors_ = true
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 450.0
+offset_top = 335.0
+offset_right = 719.0
+offset_bottom = 417.0
+text = "Exit"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
